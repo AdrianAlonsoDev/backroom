@@ -1,0 +1,186 @@
+/* Marketing theme follows next-themes' root class. Art, photos and paper documents
+   keep their own materials; interface surfaces and text share these roles. */
+:root {
+	/* Warm white, charcoal and one deep blue. */
+	--cl-bg: #f6f5f1;
+	--cl-surface: #ffffff;
+	--cl-surface-raised: #efede8;
+	--cl-surface-hover: #e7e4de;
+	--cl-ink: #15171c;
+	--cl-body: #454a54;
+	--cl-muted: #585e69;
+	--cl-subtle: #646a75;
+	--cl-soft-ink: #7a7f89;
+	--cl-line: #1c1f2617;
+	--cl-line-strong: #1c1f262e;
+	--cl-blue: #2563d6;
+	--cl-blue-soft: #2354b8;
+	--cl-accent: #3865a9;
+	--cl-paper: #efede8;
+	--cl-nav: #f6f5f1e6;
+	--cl-cta-bg: #15171c;
+	--cl-cta-ink: #ffffff;
+	--cl-cta-hover: #2c313b;
+	--cl-selection-bg: #e6eefb;
+	--cl-selection-ink: #244e91;
+	--cl-selection-line: #356ecc40;
+	--cl-panel: linear-gradient(135deg, #ffffff, #f7f5f1);
+	--cl-panel-raised: linear-gradient(120deg, #ffffff, #f1efea);
+	--cl-phone-screen: radial-gradient(ellipse at 17% 0%, #ffffff, #f7f7f9 48%, #f1f2f5);
+	--cl-phone-reply: linear-gradient(125deg, #eceef2, #e5e8ee);
+	--cl-phone-file: linear-gradient(125deg, #ffffff, #f4f5f8);
+	--cl-thread: #5c739640;
+	--cl-shadow-faint: #1b1d2408;
+	--cl-shadow-soft: #1b1d2412;
+	--cl-shadow: #1b1d2421;
+	--cl-shadow-deep: #1b1d2438;
+	--cl-cutout: #f6f5f1;
+	--cl-focus: #2769ca;
+	--cl-glow: #7198d012;
+}
+/* Dark stages inside the light page reuse the complete dark role set. */
+.dark,
+.v3-stage {
+	--cl-bg: #0f1012;
+	--cl-soft-ink: #8a8f98;
+	--cl-surface: #1c1e21;
+	--cl-surface-raised: #252c36;
+	--cl-surface-hover: #313f52;
+	--cl-ink: #f6f5f2;
+	--cl-body: #b7bbc2;
+	--cl-muted: #a1a5ac;
+	--cl-subtle: #919cac;
+	--cl-line: #ffffff16;
+	--cl-line-strong: #b1c7e530;
+	--cl-blue: #258aff;
+	--cl-blue-soft: #b6d5ff;
+	--cl-accent: #99b8e1;
+	--cl-nav: #101113ed;
+	--cl-cta-bg: #f6f5f2;
+	--cl-cta-ink: #101113;
+	--cl-cta-hover: #cce1ff;
+	--cl-selection-bg: #243349;
+	--cl-selection-ink: #d8e9ff;
+	--cl-selection-line: #90bffe55;
+	--cl-panel: linear-gradient(135deg, #1b2028, #151a22);
+	--cl-panel-raised: linear-gradient(120deg, #252c36, #1c222c);
+	--cl-phone-screen: radial-gradient(ellipse at 17% 0%, #22262c, #14171c 48%, #111418);
+	--cl-phone-reply: linear-gradient(125deg, #2b3038, #242930);
+	--cl-phone-file: linear-gradient(125deg, #28313e, #232a34);
+	--cl-thread: #667b9747;
+	--cl-shadow-faint: #0001;
+	--cl-shadow-soft: #0002;
+	--cl-shadow: #0005;
+	--cl-shadow-deep: #0009;
+	--cl-cutout: #111315;
+	--cl-focus: #69adff;
+	--cl-glow: #26385118;
+}
+
+/* Map generic role names (background, card, border...) to the landing palette.
+   Nothing else reads them. */
+:root,
+.dark {
+	--background: var(--cl-bg);
+	--foreground: var(--cl-ink);
+	--card: var(--cl-surface);
+	--card-foreground: var(--cl-ink);
+	--popover: var(--cl-surface);
+	--popover-foreground: var(--cl-ink);
+	--primary: var(--cl-cta-bg);
+	--primary-foreground: var(--cl-cta-ink);
+	--secondary: var(--cl-surface-raised);
+	--secondary-foreground: var(--cl-ink);
+	--muted: var(--cl-surface-raised);
+	--muted-foreground: var(--cl-muted);
+	--accent: var(--cl-selection-bg);
+	--accent-foreground: var(--cl-selection-ink);
+	--border: var(--cl-line);
+	--input: var(--cl-line-strong);
+	--ring: var(--cl-focus);
+	--touch: var(--cl-blue);
+	--touch-foreground: #fff;
+}
+
+/* Identity palette: mascots and work objects only. It never communicates a state. */
+:root {
+	--id-amber: #ffb02e;
+	--id-amber-shade: #e08a00;
+	--id-amber-tint: #ffebc4;
+	--id-amber-edge: #f9d38a;
+	--id-amber-deep: #8a5300;
+	--id-coral: #ff6b57;
+	--id-coral-shade: #e2463a;
+	--id-coral-tint: #ffe0d9;
+	--id-coral-edge: #f9b9aa;
+	--id-coral-deep: #b23b2c;
+	--id-teal: #26c9a8;
+	--id-teal-shade: #0ea58c;
+	--id-teal-tint: #d3f4eb;
+	--id-teal-edge: #94dfce;
+	--id-teal-deep: #0c7163;
+	--id-sky: #3d86ff;
+	--id-sky-shade: #1f6fe5;
+	--id-sky-tint: #dbe7fe;
+	--id-sky-edge: #b6cefa;
+	--id-sky-deep: #1d4fb0;
+	--id-ink: #2f343d;
+	--id-ink-shade: #15171c;
+	--id-ink-tint: #e9e8e4;
+	--id-ink-edge: #d3d1cb;
+	--id-ink-deep: #15171c;
+}
+.dark,
+.v3-stage {
+	--id-amber-tint: #33291a;
+	--id-amber-edge: #4e3e22;
+	--id-amber-deep: #ffd48a;
+	--id-coral-tint: #38221f;
+	--id-coral-edge: #56332d;
+	--id-coral-deep: #ffb3a6;
+	--id-teal-tint: #16322e;
+	--id-teal-edge: #23504a;
+	--id-teal-deep: #8fe9d8;
+	--id-sky-tint: #1a2a42;
+	--id-sky-edge: #2a4468;
+	--id-sky-deep: #9cc4ff;
+	--id-ink: #3a404b;
+	--id-ink-tint: #23262c;
+	--id-ink-edge: #343841;
+	--id-ink-deep: #e4e6ea;
+}
+[data-tone="amber"] {
+	--tone: var(--id-amber);
+	--tone-shade: var(--id-amber-shade);
+	--tone-tint: var(--id-amber-tint);
+	--tone-edge: var(--id-amber-edge);
+	--tone-deep: var(--id-amber-deep);
+}
+[data-tone="coral"] {
+	--tone: var(--id-coral);
+	--tone-shade: var(--id-coral-shade);
+	--tone-tint: var(--id-coral-tint);
+	--tone-edge: var(--id-coral-edge);
+	--tone-deep: var(--id-coral-deep);
+}
+[data-tone="teal"] {
+	--tone: var(--id-teal);
+	--tone-shade: var(--id-teal-shade);
+	--tone-tint: var(--id-teal-tint);
+	--tone-edge: var(--id-teal-edge);
+	--tone-deep: var(--id-teal-deep);
+}
+[data-tone="sky"] {
+	--tone: var(--id-sky);
+	--tone-shade: var(--id-sky-shade);
+	--tone-tint: var(--id-sky-tint);
+	--tone-edge: var(--id-sky-edge);
+	--tone-deep: var(--id-sky-deep);
+}
+[data-tone="ink"] {
+	--tone: var(--id-ink);
+	--tone-shade: var(--id-ink-shade);
+	--tone-tint: var(--id-ink-tint);
+	--tone-edge: var(--id-ink-edge);
+	--tone-deep: var(--id-ink-deep);
+}

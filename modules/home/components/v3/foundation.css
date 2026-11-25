@@ -1,0 +1,520 @@
+/* v3 primitives: headings, tags, tiles, mats, stages and motion shared by every section. */
+.landing-v3 {
+	--v3-ease: cubic-bezier(0.22, 1, 0.36, 1);
+	--v3-spring: cubic-bezier(0.2, 0.9, 0.3, 1.15);
+	--v3-section-y: clamp(64px, 7.5vw, 112px);
+	--v3-radius-lg: 34px;
+	--v3-radius-md: 24px;
+	--v3-radius-sm: 16px;
+	background: var(--cl-bg);
+}
+
+.v3-section {
+	position: relative;
+	padding-block: var(--v3-section-y);
+}
+
+/* Heading block: eyebrow chip, two-tone title, lead. */
+.v3-heading {
+	display: grid;
+	gap: 22px;
+	justify-items: start;
+	max-width: 820px;
+}
+.v3-heading[data-align="center"] {
+	justify-items: center;
+	text-align: center;
+	margin-inline: auto;
+}
+.v3-heading[data-align="split"] {
+	max-width: none;
+	grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+	align-items: end;
+	column-gap: clamp(40px, 7vw, 110px);
+}
+.v3-heading[data-align="split"] > .v3-eyebrow {
+	grid-column: 1 / -1;
+}
+.v3-eyebrow {
+	display: inline-flex;
+	align-items: center;
+	gap: 11px;
+	font-size: 13.5px;
+	font-weight: 550;
+	letter-spacing: -0.005em;
+	color: var(--cl-body);
+}
+.v3-eyebrow > i {
+	display: inline-grid;
+	place-items: center;
+	min-width: 32px;
+	height: 23px;
+	padding: 0 8px;
+	border-radius: 99px;
+	font-style: normal;
+	font-size: 11.5px;
+	font-weight: 650;
+	font-variant-numeric: tabular-nums;
+	letter-spacing: 0.02em;
+	color: var(--tone-deep, var(--cl-ink));
+	background: var(--tone-tint, var(--cl-surface-raised));
+	box-shadow: inset 0 0 0 1px var(--tone-edge, var(--cl-line));
+}
+.landing-v3 .v3-heading h2 {
+	font-size: clamp(38px, 4.5vw, 64px);
+	font-weight: 550;
+	line-height: 1.02;
+	letter-spacing: -0.048em;
+	white-space: normal;
+	text-wrap: balance;
+	margin: 0;
+}
+.v3-heading h2 > span {
+	display: block;
+}
+
+.v3-heading h2 > .v3-soft {
+	color: var(--cl-soft-ink);
+}
+.v3-lead {
+	max-width: 590px;
+	font-size: clamp(17px, 1.4vw, 19.5px);
+	line-height: 1.55;
+	letter-spacing: -0.012em;
+	color: var(--cl-body);
+	text-wrap: pretty;
+}
+.landing-v3 .v3-lead {
+	line-height: 1.55;
+}
+.v3-heading[data-align="center"] .v3-lead {
+	margin-inline: auto;
+}
+.v3-heading[data-align="split"] .v3-lead {
+	padding-bottom: 6px;
+}
+
+/* One honest label for every illustration. */
+.v3-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	height: 27px;
+	padding: 0 12px 0 10px;
+	border-radius: 99px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.005em;
+	white-space: nowrap;
+	color: var(--cl-body);
+	background: color-mix(in srgb, var(--cl-surface) 90%, transparent);
+	box-shadow:
+		inset 0 0 0 1px var(--cl-line-strong),
+		0 6px 16px -8px var(--cl-shadow);
+}
+.v3-tag::before {
+	content: "";
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 1.6px solid currentColor;
+	opacity: 0.75;
+}
+.v3-note {
+	font-size: 13px;
+	line-height: 1.6;
+	color: var(--cl-subtle);
+	text-wrap: pretty;
+}
+
+/* Muse-style tiles and objects. */
+.v3-tile {
+	--s: 48px;
+	position: relative;
+	display: inline-grid;
+	place-items: center;
+	flex: none;
+	width: var(--s);
+	height: var(--s);
+	border-radius: calc(var(--s) * 0.3);
+	background: linear-gradient(
+		160deg,
+		color-mix(in srgb, #fff 60%, var(--tone-tint)),
+		var(--tone-tint)
+	);
+	box-shadow:
+		inset 0 0 0 1px var(--tone-edge),
+		inset 0 1px 0 #ffffffb0,
+		0 12px 24px -14px color-mix(in srgb, var(--tone-shade) 70%, transparent),
+		0 2px 5px -2px #1b1d241a;
+}
+.v3-tile[data-size="sm"] {
+	--s: 32px;
+}
+.v3-tile[data-size="lg"] {
+	--s: 64px;
+}
+.v3-tile[data-size="xl"] {
+	--s: 88px;
+}
+.v3-tile > .v3-glyph {
+	width: 64%;
+	height: 64%;
+	filter: drop-shadow(0 2px 2px color-mix(in srgb, var(--tone-shade) 30%, transparent));
+}
+.dark .v3-tile,
+.v3-stage .v3-tile {
+	background: linear-gradient(
+		160deg,
+		color-mix(in srgb, #fff 6%, var(--tone-tint)),
+		var(--tone-tint)
+	);
+	box-shadow:
+		inset 0 0 0 1px var(--tone-edge),
+		inset 0 1px 0 #ffffff14,
+		0 14px 26px -16px #000c;
+}
+.v3-glyph .g-fill {
+	fill: var(--tone);
+}
+.v3-glyph .g-shade {
+	fill: var(--tone-shade);
+}
+.v3-glyph .g-shade-stroke {
+	stroke: var(--tone-shade);
+}
+.v3-glyph .g-line,
+.v3-glyph .g-hi {
+	stroke: #fff;
+}
+.v3-glyph .g-hi {
+	stroke-opacity: 0.55;
+}
+.v3-glyph .g-dot,
+.v3-glyph .g-solid {
+	fill: #fff;
+}
+.v3-glyph .g-soft {
+	fill: #fff;
+	fill-opacity: 0.62;
+}
+.v3-glyph .g-glass {
+	fill: #fff;
+	fill-opacity: 0.78;
+}
+.v3-glyph .g-ink {
+	fill: #182c35;
+}
+.v3-glyph[data-tone="ink"] .g-line,
+.v3-glyph[data-tone="ink"] .g-dot {
+	stroke: #f6f5f2;
+}
+
+/* Mascots: the team as one recognizable family. */
+.v3-mascot {
+	display: block;
+	overflow: visible;
+}
+.v3-mascot-eyes {
+	transform-box: fill-box;
+	transform-origin: center;
+}
+/* Colour mats: product frames sit on a material, never on the text ground. */
+.v3-mat {
+	position: relative;
+	isolation: isolate;
+	border-radius: var(--v3-radius-lg);
+	background:
+		radial-gradient(110% 80% at 10% 0%, var(--mat-hi), transparent 62%),
+		radial-gradient(90% 80% at 100% 100%, var(--mat-lo), transparent 70%), var(--mat);
+	box-shadow: inset 0 0 0 1px var(--mat-edge);
+}
+.v3-mat::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	border-radius: inherit;
+	pointer-events: none;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+	mix-blend-mode: multiply;
+	opacity: 0.16;
+}
+.v3-mat[data-tone="amber"] {
+	--mat: #ffe6ad;
+	--mat-hi: #fff4d8;
+	--mat-lo: #ffd27c;
+	--mat-edge: #f3cf82;
+}
+.v3-mat[data-tone="coral"] {
+	--mat: #ffd8cd;
+	--mat-hi: #ffece6;
+	--mat-lo: #ffb8a6;
+	--mat-edge: #f4c0b2;
+}
+.v3-mat[data-tone="teal"] {
+	--mat: #cdf1e7;
+	--mat-hi: #e7fbf5;
+	--mat-lo: #a3e6d6;
+	--mat-edge: #a9ddd0;
+}
+.v3-mat[data-tone="sky"] {
+	--mat: #2f67dd;
+	--mat-hi: #4f86f2;
+	--mat-lo: #1d48b4;
+	--mat-edge: #1d4fb0;
+}
+.v3-mat[data-tone="ink"] {
+	--mat: #1a1c21;
+	--mat-hi: #2a2e37;
+	--mat-lo: #111216;
+	--mat-edge: #2a2d34;
+}
+.dark .v3-mat[data-tone="amber"] {
+	--mat: #e9a93a;
+	--mat-hi: #f5c46a;
+	--mat-lo: #c9831f;
+	--mat-edge: #f0b650;
+}
+.dark .v3-mat[data-tone="amber"]::after {
+	mix-blend-mode: multiply;
+	opacity: 0.12;
+}
+.dark .v3-mat[data-tone="coral"] {
+	--mat: #2e1410;
+	--mat-hi: #a3402f;
+	--mat-lo: #1d0d0a;
+	--mat-edge: #ff6b5740;
+}
+.dark .v3-mat[data-tone="teal"] {
+	--mat: #0c2622;
+	--mat-hi: #177e6d;
+	--mat-lo: #081a17;
+	--mat-edge: #26c9a840;
+}
+.dark .v3-mat[data-tone="sky"] {
+	--mat: #173a82;
+	--mat-hi: #2552b5;
+	--mat-lo: #102a61;
+	--mat-edge: #2a57b0;
+}
+.dark .v3-mat::after {
+	mix-blend-mode: screen;
+	opacity: 0.05;
+}
+
+/* Dark stage band: the complete dark role set, with rim light on a dark page. */
+.v3-stage {
+	position: relative;
+	isolation: isolate;
+	color: var(--cl-ink);
+	background: #0f1013;
+}
+.v3-stage::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	pointer-events: none;
+	background:
+		radial-gradient(60% 55% at 50% 0%, #2563d630, transparent 70%),
+		radial-gradient(40% 40% at 88% 100%, #26c9a814, transparent 70%),
+		radial-gradient(40% 40% at 10% 90%, #ff6b5712, transparent 70%);
+}
+.dark .v3-stage {
+	background: #15171b;
+	box-shadow:
+		inset 0 1px 0 #ffffff12,
+		inset 0 -1px 0 #ffffff12;
+}
+
+/* Status: neutral chips with a symbol and a label; never an identity colour. */
+.v3-status {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	height: 26px;
+	padding: 0 11px 0 9px;
+	border-radius: 99px;
+	font-size: 12px;
+	font-weight: 600;
+	white-space: nowrap;
+	color: var(--cl-body);
+	background: var(--cl-surface);
+	box-shadow: inset 0 0 0 1px var(--cl-line-strong);
+}
+.v3-status > i {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: currentColor;
+}
+.v3-status[data-state="live"] > i {
+	background: #1e7a4f;
+	box-shadow: 0 0 0 3px #1e7a4f24;
+}
+.v3-status[data-state="building"] > i {
+	background: var(--cl-blue);
+	box-shadow: 0 0 0 3px #2563d624;
+}
+.v3-status[data-state="later"] > i {
+	background: transparent;
+	border: 1.6px solid var(--cl-subtle);
+}
+.dark .v3-status[data-state="live"] > i,
+.v3-stage .v3-status[data-state="live"] > i {
+	background: #5bd19a;
+	box-shadow: 0 0 0 3px #5bd19a24;
+}
+.dark .v3-status[data-state="building"] > i,
+.v3-stage .v3-status[data-state="building"] > i {
+	background: #6aa8ff;
+	box-shadow: 0 0 0 3px #6aa8ff24;
+}
+
+/* Scroll reveal: fully visible by default, animated only where supported and welcome. */
+@supports (animation-timeline: view()) {
+	@media (prefers-reduced-motion: no-preference) {
+		.v3-reveal {
+			animation: v3-rise linear both;
+			animation-timeline: view();
+			animation-range: entry 0px entry 200px;
+		}
+		.v3-reveal-late {
+			animation: v3-rise linear both;
+			animation-timeline: view();
+			animation-range: entry 40px entry 260px;
+		}
+	}
+}
+@keyframes v3-rise {
+	from {
+		opacity: 0.15;
+		translate: 0 28px;
+	}
+}
+
+/* Loops run only while their scene is visible. */
+@media (prefers-reduced-motion: no-preference) {
+	[data-motion-running="true"] .v3-mascot-eyes {
+		animation: v3-blink 6.2s 3 both;
+	}
+	.v3-request .v3-mascot-eyes {
+		animation: none !important;
+	}
+	[data-motion-running="true"] .agent-avatar.avatar-nico .v3-mascot-eyes {
+		animation-delay: 2.1s;
+	}
+	[data-motion-running="true"] .agent-avatar.avatar-clara .v3-mascot-eyes {
+		animation-delay: 4.3s;
+	}
+}
+@keyframes v3-blink {
+	0%,
+	94%,
+	100% {
+		scale: 1 1;
+	}
+	96.5% {
+		scale: 1 0.14;
+	}
+}
+
+@media (max-width: 900px) {
+	.v3-heading[data-align="split"] {
+		grid-template-columns: 1fr;
+		row-gap: 22px;
+	}
+}
+@media (max-width: 640px) {
+	.landing-v3 {
+		--v3-radius-lg: 26px;
+		--v3-radius-md: 20px;
+	}
+	.v3-heading {
+		gap: 18px;
+	}
+	.landing-v3 .v3-heading h2 {
+		font-size: clamp(32px, 9.2vw, 38px);
+		letter-spacing: -0.045em;
+	}
+	.v3-lead {
+		font-size: 16.5px;
+	}
+}
+
+/* Ink objects stay legible on dark tiles. */
+.dark .v3-glyph[data-tone="ink"],
+.v3-stage .v3-glyph[data-tone="ink"] {
+	--tone: #dfe3ea;
+	--tone-shade: #9aa2af;
+}
+.dark .v3-glyph[data-tone="ink"] .g-dot,
+.v3-stage .v3-glyph[data-tone="ink"] .g-dot {
+	fill: #23262c;
+	stroke: none;
+}
+
+/* Paper objects keep their light inks in both themes. */
+.v3-doc,
+.v3-sat,
+.offer-sheet,
+.creator-card {
+	--id-coral-deep: #b23b2c;
+	--id-coral-tint: #ffe0d9;
+	--id-coral-edge: #f9b9aa;
+	--id-amber-deep: #8a5300;
+	--id-amber-tint: #ffebc4;
+	--id-amber-edge: #f9d38a;
+	--id-teal-deep: #0c7163;
+	--id-teal-tint: #d3f4eb;
+	--id-teal-edge: #94dfce;
+}
+
+/* White labels on blue fills use the deep brand blue in both themes. */
+.landing-v3 {
+	--v3-fill-blue: #2563d6;
+}
+
+/* Page-level pause: every loop stops, including the phone scene. */
+.landing-v3[data-motion-paused="true"]
+	:is(
+		.v3-marquee-track,
+		.v3-float,
+		.v3-halo-item,
+		.v3-status-state,
+		.v3-aura > i,
+		.v2-hero-reel-track,
+		.v3-typing > i,
+		.v3-mascot-eyes,
+		.v3-clouds-layer,
+		.v3-star-twinkle
+	) {
+	animation-play-state: paused !important;
+}
+.v3-motion-pause {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	min-height: 36px;
+	padding: 0 14px 0 12px;
+	border-radius: 99px;
+	font-size: 12.5px;
+	font-weight: 600;
+	color: #dfe6f5;
+	background: #ffffff0f;
+	box-shadow: inset 0 0 0 1px #ffffff26;
+	transition: background 0.2s;
+}
+.v3-motion-pause:hover {
+	background: #ffffff1f;
+}
+.v3-motion-pause:focus-visible {
+	outline: 2px solid #9cc4ff;
+	outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+	.v3-motion-pause {
+		display: none;
+	}
+}

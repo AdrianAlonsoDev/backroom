@@ -1,0 +1,501 @@
+{
+	"landing": {
+		"meta": {
+			"title": "Backroom — Grow your business. Without doing it all yourself.",
+			"description": "An AI team that works with your business context: it prepares offers, research and drafts for X, Instagram and YouTube. In early access."
+		},
+		"cta": "Request access",
+		"nav": {
+			"team": "Your team",
+			"faq": "Questions",
+			"label": "Main navigation",
+			"language": "Language",
+			"open": "Open menu",
+			"close": "Close menu",
+			"skip": "Skip to content",
+			"context": "Memory",
+			"launch": "Get it out there",
+			"theme": "Switch between light and dark"
+		},
+		"faq": {
+			"title": "Let’s be clear.",
+			"description": "What to know before joining.",
+			"one": {
+				"q": "Who is Backroom for?",
+				"a": "For founders, independent professionals with their own offer and small teams who want to build, launch or grow a business. It’s especially relevant if you have something real in the works and research, creation and distribution still depend on you."
+			},
+			"two": {
+				"q": "What if I only have an idea?",
+				"a": "You can start there, too. Your first piece of work might be understanding the problem, testing an offer or preparing a small experiment. You don’t need to pretend you already have customers; hypotheses should remain hypotheses."
+			},
+			"three": {
+				"q": "How is this different from an AI chat?",
+				"a": "A chat answers what you ask. Backroom starts from what it already knows about your business, works with a method — what to research, what to prepare, how to take in your corrections — and leaves results you can open and ask to change. What you correct once, the whole team uses."
+			},
+			"four": {
+				"q": "Does it publish on X, Instagram and YouTube for me?",
+				"a": "Not yet. Today Backroom prepares drafts and you decide where and when to publish them. Publishing from Backroom will come later and will ask for your permission on each piece."
+			},
+			"five": {
+				"q": "Can I try it now?",
+				"a": "We’re preparing early access. Leave your email and tell us what you want to move forward. We’ll contact you when we can offer you access; submitting the form does not yet create an account or guarantee a date. In our private build you can already talk with your team, open results and ask for changes, correct the shared memory and use your own AI account. Missions, For you and weekly work are being built. Connecting your channels, publishing and measuring come after that."
+			},
+			"six": {
+				"q": "How much does it cost?",
+				"a": "We haven’t published prices yet. Requesting access needs no card and starts no subscription. To use it you’ll work with your own AI account; if that plan is paid, its cost is separate and yours to manage. You’ll know the terms before deciding whether to use the product."
+			},
+			"seven": {
+				"q": "What happens to my business information?",
+				"a": "What you decide is kept in your business’s memory: you can read and correct it, and each business has its own. Conversations are processed through your own AI account, under that provider’s terms. Publishing or reading private data on your behalf will always ask for your authorisation. Before you start we’ll explain what is stored and how to delete it; meanwhile, the <privacy>privacy policy</privacy> covers what we do with what you send in the access form."
+			}
+		},
+		"footer": {
+			"note": "For people working on something of their own.",
+			"label": "Footer links",
+			"product": "Explore the product",
+			"contact": "Request access",
+			"signature": "Ideas finding their next step."
+		},
+		"artifacts": {
+			"label": "FICTIONAL EXAMPLE · NORTE STUDIO",
+			"note": "A fictional example to explore the experience. This is not work delivered for a client.",
+			"imageAlt": "Soma identity concept: a cup, packaging and menu in cobalt blue on pale stone.",
+			"offer": {
+				"title": "An identity for your next café",
+				"body": "A Norte proposal to turn the character of an independent café into a recognisable identity.",
+				"labelOne": "WHO IT’S FOR",
+				"textOne": "People preparing to open an independent café who need their brand to feel consistent from day one.",
+				"labelTwo": "WHAT’S INCLUDED",
+				"textTwo": "Visual direction, identity and initial applications for menus and packaging. Interior design and production are agreed separately.",
+				"labelThree": "WHAT TO FIND OUT",
+				"textThree": "What they need ready for opening, who decides on the design and what they struggle to solve with existing alternatives.",
+				"takeaway": "Next step: discuss scope and priorities in a first conversation."
+			},
+			"website": {
+				"title": "A page for Norte’s offer",
+				"body": "The same proposition, turned into a simple page that opens a conversation.",
+				"labelOne": "A CLEAR PROPOSITION",
+				"textOne": "A place of your own. A brand of your own. Visual identity for independent cafés preparing to open.",
+				"labelTwo": "THE WORK YOU RECEIVE",
+				"textTwo": "A visual direction and its first applications: identity, menus and packaging. A coherent project with a scope agreed before work begins.",
+				"labelThree": "A NEXT STEP",
+				"textThree": "Tell us about the café you have in mind, what you’ve prepared and what you need to open. We’ll shape the proposal from there.",
+				"takeaway": "The page illustrates an offer; its form is not connected to a real studio."
+			},
+			"content": {
+				"title": "One identity. Three conversations.",
+				"body": "The Soma concept shows how Norte works. Each format reveals a different angle of the same project.",
+				"labelOne": "X",
+				"textOne": "One observation and three images: how the cup, menu and packaging share the same idea. Explaining the thinking invites a conversation about design.",
+				"labelTwo": "INSTAGRAM",
+				"textTwo": "A reel that starts with a detail and reveals the whole. The visual story moves from concept to applications, without inventing a client or a success story.",
+				"labelThree": "YOUTUBE",
+				"textThree": "A walk through the project: audience, references, decisions and result. Showing what was ruled out also helps explain the work.",
+				"takeaway": "Drafts to review. Publishing from Backroom isn’t available yet."
+			},
+			"research": {
+				"title": "The questions before the launch",
+				"body": "A starting point for researching Norte’s offer. References provide direction; hypotheses need testing.",
+				"labelOne": "WHAT WE ALREADY HAVE",
+				"textOne": "A design portfolio, a proposed audience and an initial scope: identity, menus and packaging for independent cafés.",
+				"labelTwo": "WHAT WE STILL NEED TO LEARN",
+				"textTwo": "How they choose a studio, what budget and timeline they work with and which materials take the most effort before opening. These are questions, not verified market data.",
+				"labelThree": "THE FIRST TEST",
+				"textThree": "Show a short proposal to potential clients and listen to what they need, what they don’t understand and how they would solve it without Norte.",
+				"takeaway": "There is no validated demand or invented customer evidence in this example."
+			}
+		},
+		"v2": {
+			"hero": {
+				"titleA": "Grow <growth>your business.</growth>",
+				"titleB": "Without doing it <team>all <you>yourself.</you></team>",
+				"lead": "Your AI team knows your business, prepares campaigns and projects, and you just decide.",
+				"secondary": "See how it works",
+				"trust": {
+					"memory": "Ongoing memory",
+					"control": "Nothing goes out without your OK",
+					"account": "With your own AI account"
+				}
+			},
+			"workspace": {
+				"tag": "Mockup with fictional data",
+				"home": "Home",
+				"missions": "Missions",
+				"knowledge": "Context",
+				"navigation": "Demo navigation",
+				"search": "Search your business",
+				"business": "Your business",
+				"conversations": "Conversations",
+				"documents": "Documents",
+				"agenda": "Schedule",
+				"connections": "Connections",
+				"team": "Your team",
+				"personal": "Personal account",
+				"today": "Tuesday, 22 September",
+				"greeting": "Good morning, Elena",
+				"greetingNight": "Good evening, Elena",
+				"greetingBody": "Your team is moving forward. Here’s what needs your attention.",
+				"decision": "Your next decision",
+				"mission": "Shape Norte’s new offer",
+				"missionBody": "The proposal and the page are prepared. The next steps are choosing the promise and reviewing what to publish.",
+				"viewMission": "View mission",
+				"forYou": "For you",
+				"vegaAsks": "Vega needs your input",
+				"promise": "Which promise should lead the page?",
+				"promiseBody": "Two approaches are ready. Vega recommends explaining the outcome.",
+				"seeOffer": "View the proposal",
+				"nicoAsks": "Nico is waiting for your review",
+				"pageReady": "The page is ready for you to take a look.",
+				"pageBody": "Review the proposal before deciding what you want to publish.",
+				"seePage": "Open document",
+				"activeMissions": "Active missions",
+				"all": "All",
+				"inProgress": "In progress",
+				"missionsBody": "Concrete outcomes. A team responsible for each next step.",
+				"missionOne": "Rethink the design package offer",
+				"missionTwo": "Build the test page",
+				"missionThree": "Prepare distribution on Instagram and X",
+				"missionFour": "Test the next hypothesis",
+				"prepared": "Prepared",
+				"deliverables": "{count} deliverables",
+				"knowledgeBody": "Your experience, your decisions and what you’re learning together.",
+				"briefLabel": "Understanding the business",
+				"briefTitle": "Design with intent. Brands with personality.",
+				"briefBody": "Norte helps independent cafés express who they are. We want a clear offer, a pilot project and conversations with real businesses.",
+				"reviewed": "Reviewed by Elena",
+				"sources": "Where it comes from",
+				"sourceOne": "Portfolio and previous projects",
+				"sourceTwo": "Brand references",
+				"sourceThree": "Our decision: start with cafés",
+				"yourSource": "A source you provided",
+				"yourDecision": "A business decision",
+				"coordination": "Coordination",
+				"sharedDirection": "A shared direction",
+				"outputs": "Deliverables",
+				"onTheTable": "On the table",
+				"railOne": "Shape the offer",
+				"railTwo": "Build the page",
+				"forReview": "For review",
+				"atHand": "At hand",
+				"offer": "Proposal",
+				"railNote": "Clara coordinates Nico and Vega to keep the work moving forward with you."
+			},
+			"final": {
+				"body": "You can start whether your business is already running or still just an idea."
+			}
+		},
+		"v3": {
+			"hero": {
+				"status": {
+					"research": "Researching your market",
+					"compare": "Comparing three angles",
+					"ready": "Ready for your review"
+				}
+			},
+			"requests": {
+				"label": "Ask the way you’d ask your team",
+				"tag": "Example requests",
+				"items": {
+					"hooks": "Draft three hooks for X about my offer",
+					"script": "Turn this thread into a YouTube script",
+					"review": "Review the page before I show it",
+					"research": "See how others solve it and tell me what you’d try",
+					"recap": "Sum up what we decided on Tuesday",
+					"email": "Write the email for everyone who signed up",
+					"pricing": "Suggest two prices and say which one you’d test",
+					"questions": "Pull out the questions my customers ask most",
+					"carousel": "Build an Instagram carousel from this idea",
+					"week": "Sort out what’s still pending this week",
+					"angles": "Give me three ways to tell the launch story",
+					"compare": "Compare these two offers with what we already know"
+				}
+			},
+			"faq": {
+				"eyebrow": "In case you were wondering"
+			},
+			"final": {
+				"eyebrow": "Early access",
+				"title": "How far would you go",
+				"soft": "with a team behind you?",
+				"noCard": "No card",
+				"noCommitment": "No commitment",
+				"light": "Just your email and one sentence"
+			},
+			"close": "Close",
+			"pauseAll": "Pause animations",
+			"resumeAll": "Resume animations"
+		},
+		"v4": {
+			"states": {
+				"live": "Works today",
+				"building": "Being built",
+				"later": "Later"
+			},
+			"launch": {
+				"eyebrow": "Get it out there",
+				"title": "Get known.",
+				"soft": "Without living on social media.",
+				"lead": "Give your team a goal and it takes care of the rest: it prepares each post with what it knows about your business, publishes it when you approve, measures what works and keeps an eye on your competitors.",
+				"chips": {
+					"missions": "Missions",
+					"publish": "Publishing, results and competitors"
+				},
+				"mission": "Get the café branding pack known",
+				"goalLabel": "Goal",
+				"goal": "20 quote requests in October",
+				"progress": "12 of 20 requests",
+				"progressLater": "19 of 20 requests",
+				"repeat": "Every week",
+				"tabs": {
+					"now": "This week",
+					"later": "One week later",
+					"label": "See the mission"
+				},
+				"x": {
+					"when": "Mon, 10:00",
+					"state": "Published",
+					"handle": "@nortestudio",
+					"ago": "2h",
+					"text": "A café starts telling its story before the first coffee. On the cup, on the menu, on the sign.",
+					"textTwo": "This is how we design an identity so every one of those details speaks the same language.",
+					"replies": "12",
+					"reposts": "9",
+					"likes": "63",
+					"views": "4.8K",
+					"metricOne": "views",
+					"metricTwo": "requests",
+					"valueOne": "4,812",
+					"valueTwo": "2",
+					"used": "Used your portfolio and your tone",
+					"later": {
+						"valueOne": "6,204",
+						"valueTwo": "3",
+						"views": "6.2K",
+						"likes": "88",
+						"replies": "17",
+						"reposts": "14"
+					},
+					"agoLater": "7d"
+				},
+				"instagram": {
+					"when": "Wed, 10:00",
+					"state": "Waiting for your OK",
+					"caption": "From the cup to the menu. A brand lives in the details.",
+					"approve": "Approve and schedule",
+					"changes": "Ask for changes",
+					"scheduledState": "Scheduled",
+					"scheduled": "Scheduled for Wednesday at 10:00",
+					"undo": "Undo",
+					"used": "Used the Soma concept and your clients' questions",
+					"publishedState": "Published",
+					"later": {
+						"valueOne": "8,930",
+						"metricOne": "people reached",
+						"valueTwo": "4",
+						"metricTwo": "requests"
+					}
+				},
+				"youtube": {
+					"when": "Fri, 18:00",
+					"state": "Script ready",
+					"cover": "From an idea to an identity.",
+					"title": "How we design a café before it opens",
+					"draft": "Draft",
+					"duration": "8:24",
+					"step": "Script ready for you to record",
+					"stepCount": "3 parts, about 8 minutes",
+					"used": "Used your process and the last video",
+					"publishedState": "Published",
+					"later": {
+						"valueOne": "1,240",
+						"metricOne": "views",
+						"valueTwo": "2",
+						"metricTwo": "requests",
+						"meta": "1.2K views · 3 days ago"
+					}
+				},
+				"insight": {
+					"label": "Results and competitors",
+					"text": "Last week's carousel brought 5 of the 12 requests, and the studios growing fastest also show their process. Shall I prepare another one for Friday?",
+					"action": "Yes, prepare it",
+					"added": "Ready on Friday",
+					"laterLabel": "Weekly report",
+					"laterText": "7 new requests came in and you are at 19 of 20. Showing the process still works best: the carousel brought 4.",
+					"saved": "Saved to Context",
+					"undo": "Undo",
+					"save": "Save to Context"
+				}
+			},
+			"team": {
+				"eyebrow": "How you work with your team",
+				"title": "You ask in one sentence.",
+				"soft": "Your team turns it into a mission.",
+				"lead": "Clara understands what you want, asks only what is missing and splits the work. You see who does what, what waits for your decision and every result as soon as it is ready.",
+				"chips": {
+					"chat": "Conversations",
+					"missions": "Missions"
+				},
+				"mission": "Launch the café branding pack",
+				"goal": "Five conversations with cafés before October 31",
+				"role": "Coordination",
+				"prompt": "I want to offer brand design to cafés that are about to open. I have my portfolio. Shall we shape it?",
+				"read": "Read your portfolio and what it knows about Norte",
+				"question": "What would be a good result this month?",
+				"answer": "Five conversations with cafés",
+				"reply": "Done. I created the mission and split the work: Vega researches, Nico prepares the proposal and the page, and I coordinate. Anything that needs your decision will reach you in For you.",
+				"created": "Mission created",
+				"composer": "What should the team work on?",
+				"columns": {
+					"todo": "To do",
+					"running": "In progress",
+					"review": "For you",
+					"done": "Done"
+				},
+				"cards": {
+					"research": {
+						"title": "Research six similar studios",
+						"meta": "6 sources"
+					},
+					"brief": {
+						"title": "Mission brief",
+						"meta": "Goal and roles"
+					},
+					"offer": {
+						"title": "Review the offer proposal",
+						"meta": "Version 2"
+					},
+					"promise": {
+						"title": "Choose the page's promise",
+						"meta": "Vega recommends A"
+					},
+					"page": {
+						"title": "Pack landing page",
+						"meta": "Writing"
+					},
+					"list": {
+						"title": "Cafés opening this quarter",
+						"meta": "14 found"
+					},
+					"content": {
+						"title": "Posts for X, Instagram and YouTube",
+						"meta": "After the page"
+					},
+					"email": {
+						"title": "Email to interested cafés",
+						"meta": "Will ask first"
+					},
+					"tone": {
+						"title": "Tone and key messages",
+						"meta": "In Context"
+					}
+				},
+				"open": "Open"
+			},
+			"context": {
+				"eyebrow": "Memory",
+				"title": "Your team knows what you know.",
+				"soft": "And you correct it in one sentence.",
+				"lead": "Your offer, your clients, your tone and every decision stay in a memory the team checks before working. You read it, correct it when you change your mind, and every version is kept.",
+				"facts": {
+					"sources": "Built from your files and your decisions",
+					"fix": "One correction reaches the whole team",
+					"own": "Each business has its own"
+				},
+				"chip": "Memory and sources",
+				"tabs": {
+					"sources": "Sources"
+				},
+				"noteTitle": "What the team knows about Norte Studio",
+				"revisionBefore": "Revision 6, 3 days ago",
+				"revisionAfter": "Revision 7, now, by you",
+				"sections": {
+					"offer": "Offer",
+					"audience": "Who for",
+					"price": "Price",
+					"tone": "Tone"
+				},
+				"offer": "Brand identity for independent cafés: visual direction, menu and packaging.",
+				"audienceBefore": "Cafés that are already open and want a refresh.",
+				"audienceAfter": "Cafés opening in the next few months.",
+				"priceBefore": "Starter pack, €2,400.",
+				"priceAfter": "Starter pack, €1,800, with one revision included.",
+				"tone": "Warm and visual, no jargon.",
+				"you": "You",
+				"correction": "Better cafés that are about to open, not the ones already running. And the pack at €1,800, with one revision included.",
+				"apply": "Apply the correction",
+				"reset": "Back to the start",
+				"sources": {
+					"portfolio": "Norte portfolio",
+					"prices": "Prices 2026",
+					"questions": "Client questions"
+				},
+				"versionLabel": "v{n}",
+				"teamTitle": "On their next task",
+				"vega": {
+					"before": "Looking for cafés that want to refresh their brand.",
+					"after": "Looking for cafés opening this quarter."
+				},
+				"nico": {
+					"before": "Preparing the page with the pack at €2,400.",
+					"after": "Preparing the page with the pack at €1,800."
+				},
+				"announce": "Correction applied. Vega and Nico start from the new version."
+			},
+			"foryou": {
+				"eyebrow": "You decide",
+				"title": "Close the app.",
+				"soft": "Your team keeps going.",
+				"lead": "Your team moves ahead with everything that doesn't depend on you. What does waits for you in For you, and as soon as you answer it picks up right where it stopped.",
+				"facts": {
+					"permission": "Publishing, sending or spending always asks you first",
+					"weekly": "Weekly work is scheduled once",
+					"wait": "You answer when you can, from your phone too"
+				},
+				"chip": "For you and Agenda",
+				"title2": "For you",
+				"kinds": {
+					"permission": "Permission",
+					"agenda": "Agenda"
+				},
+				"permission": {
+					"when": "Today, 9:05",
+					"title": "Publish the carousel on Instagram",
+					"detail": "Wednesday at 10:00",
+					"scope": "This action only, once.",
+					"allow": "Allow once",
+					"deny": "Don't allow",
+					"done": "Allowed once. It will be published on Wednesday at 10:00.",
+					"undo": "Undo"
+				},
+				"agenda": {
+					"when": "Every Monday, 9:00",
+					"title": "Weekly summary",
+					"body": "3 posts, 12 requests and one decision pending."
+				},
+				"chipPublish": "Publishing",
+				"meanwhile": {
+					"title": "Meanwhile",
+					"vega": "Vega finished the list: 14 cafés",
+					"nico": "Nico is working on the pack page"
+				}
+			}
+		}
+	},
+	"earlyAccess": {
+		"title": "Request access",
+		"description": "We’ll write when we can open it for you. Sending the form doesn’t create an account.",
+		"email": "Email address",
+		"emailPlaceholder": "you@company.com",
+		"intent": "What would you like to work on?",
+		"intentPlaceholder": "For example: shape an offer, launch my product or get my business noticed.",
+		"intentHint": "One sentence is enough. Between 10 and 1,000 characters.",
+		"consent": "I agree to be contacted by Backroom about early access.",
+		"submit": "Request access",
+		"successTitle": "Your interest has been recorded",
+		"successDescription": "Thanks for telling us what you want to build. We will use your email to contact you about early access.",
+		"error": "We could not save your request. Please try again.",
+		"invalidEmail": "Enter a valid email address.",
+		"invalidIntent": "Write between 10 and 1,000 characters.",
+		"requiredConsent": "Please agree before submitting."
+	}
+}

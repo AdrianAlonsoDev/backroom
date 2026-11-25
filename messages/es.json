@@ -1,0 +1,501 @@
+{
+	"landing": {
+		"meta": {
+			"title": "Backroom — Haz crecer tu negocio. Sin tener que hacerlo todo tú.",
+			"description": "Un equipo de IA que trabaja con el contexto de tu negocio: prepara ofertas, investigaciones y borradores para X, Instagram y YouTube. En acceso anticipado."
+		},
+		"cta": "Pedir acceso",
+		"nav": {
+			"team": "Tu equipo",
+			"faq": "Preguntas",
+			"label": "Navegación principal",
+			"language": "Idioma",
+			"open": "Abrir menú",
+			"close": "Cerrar menú",
+			"skip": "Ir al contenido",
+			"context": "Memoria",
+			"launch": "Hazlo llegar",
+			"theme": "Cambiar entre claro y oscuro"
+		},
+		"faq": {
+			"title": "Hablemos claro.",
+			"description": "Lo esencial antes de sumarte.",
+			"one": {
+				"q": "¿Para quién es Backroom?",
+				"a": "Para founders, profesionales con una oferta propia y equipos pequeños que quieren construir, lanzar o hacer crecer un negocio. Encaja especialmente si tienes algo real entre manos y la investigación, la creación y la distribución siguen dependiendo de ti."
+			},
+			"two": {
+				"q": "¿Y si todavía solo tengo una idea?",
+				"a": "También puedes empezar ahí. El primer trabajo puede ser entender el problema, contrastar una oferta o preparar una prueba pequeña. No tienes que fingir que ya tienes clientes; las hipótesis deben seguir siendo hipótesis."
+			},
+			"three": {
+				"q": "¿Qué diferencia hay con un chat de IA?",
+				"a": "Un chat responde a lo que le pides. Backroom parte de lo que ya sabe de tu negocio, trabaja con un método —qué investigar, qué preparar, cómo incorporar tus correcciones— y deja resultados que puedes abrir y pedir cambiar. Lo que corriges una vez lo usa todo el equipo."
+			},
+			"four": {
+				"q": "¿Publica por mí en X, Instagram y YouTube?",
+				"a": "Todavía no. Hoy Backroom prepara borradores y tú decides dónde y cuándo publicarlos. Publicar desde Backroom llegará más adelante y pedirá tu permiso para cada pieza."
+			},
+			"five": {
+				"q": "¿Puedo probarlo ya?",
+				"a": "Estamos preparando el acceso anticipado. Deja tu correo y cuéntanos qué quieres sacar adelante. Te contactaremos cuando podamos abrirte acceso; enviar el formulario no crea todavía una cuenta ni garantiza una fecha. En nuestra versión privada ya funcionan las conversaciones con tu equipo, los resultados que abres y pides cambiar, la memoria compartida que corriges y el uso de tu propia cuenta de IA. Las misiones, Para ti y el trabajo de cada semana están en construcción. Conectar tus canales, publicar y medir llegarán después."
+			},
+			"six": {
+				"q": "¿Cuánto cuesta?",
+				"a": "Aún no hemos publicado precios. Pedir acceso no requiere tarjeta ni activa una suscripción. Para usarlo trabajarás con tu propia cuenta de IA; si es de pago, ese coste va aparte y lo gestionas tú. Conocerás las condiciones antes de decidir si quieres usar el producto."
+			},
+			"seven": {
+				"q": "¿Qué pasa con la información de mi negocio?",
+				"a": "Lo que decides queda en la memoria de tu negocio: puedes leerla y corregirla, y cada negocio tiene la suya. Las conversaciones se procesan con tu propia cuenta de IA, según las condiciones de ese proveedor. Publicar o leer datos privados en tu nombre pedirá siempre tu autorización. Antes de empezar te explicaremos qué se guarda y cómo borrarlo; mientras tanto, la <privacy>política de privacidad</privacy> explica qué hacemos con lo que envías en el formulario de acceso."
+			}
+		},
+		"footer": {
+			"note": "Para quienes tienen algo propio entre manos.",
+			"label": "Enlaces del pie de página",
+			"product": "Explorar el producto",
+			"contact": "Pedir acceso",
+			"signature": "Ideas que encuentran su siguiente paso."
+		},
+		"artifacts": {
+			"label": "EJEMPLO FICTICIO · NORTE STUDIO",
+			"note": "Ejemplo ficticio para explorar la experiencia. No es trabajo ejecutado para un cliente.",
+			"imageAlt": "Concepto de identidad Soma: vaso, envase y carta en azul cobalto sobre piedra clara.",
+			"offer": {
+				"title": "Identidad para tu próxima cafetería",
+				"body": "Una propuesta de Norte para convertir el carácter de una cafetería independiente en una identidad reconocible.",
+				"labelOne": "PARA QUIÉN",
+				"textOne": "Personas que preparan la apertura de una cafetería independiente y necesitan que su marca se sienta coherente desde el primer día.",
+				"labelTwo": "QUÉ INCLUYE",
+				"textTwo": "Dirección visual, identidad y aplicaciones iniciales en carta y envases. El diseño del espacio y la producción se acuerdan por separado.",
+				"labelThree": "QUÉ CONTRASTAR",
+				"textThree": "Qué necesitan tener preparado para abrir, quién decide el diseño y qué les cuesta resolver con las alternativas actuales.",
+				"takeaway": "Siguiente paso: contrastar alcance y prioridades en una primera conversación."
+			},
+			"website": {
+				"title": "Una página para la oferta de Norte",
+				"body": "La misma propuesta, traducida a una página sencilla que abre una conversación.",
+				"labelOne": "UNA PROPUESTA CLARA",
+				"textOne": "Un lugar propio. Una marca propia. Identidad visual para cafeterías independientes que están a punto de abrir.",
+				"labelTwo": "EL TRABAJO QUE RECIBES",
+				"textTwo": "Una dirección visual y sus primeras aplicaciones: identidad, carta y envases. Un proyecto coherente, con un alcance que se acuerda antes de empezar.",
+				"labelThree": "UN SIGUIENTE PASO",
+				"textThree": "Cuéntanos qué cafetería tienes en mente, qué has preparado y qué necesitas para abrir. A partir de ahí, damos forma a la propuesta.",
+				"takeaway": "La página ilustra una oferta; su formulario no está conectado a un estudio real."
+			},
+			"content": {
+				"title": "Una identidad. Tres conversaciones.",
+				"body": "El concepto Soma sirve para explicar cómo trabaja Norte. Cada formato enseña un ángulo distinto del mismo proyecto.",
+				"labelOne": "X",
+				"textOne": "Una observación y tres imágenes: cómo el vaso, la carta y el envase comparten una misma idea. Explicar el criterio invita a conversar sobre diseño.",
+				"labelTwo": "INSTAGRAM",
+				"textTwo": "Un reel que empieza en un detalle y revela el conjunto. La historia visual va del concepto a sus aplicaciones, sin inventar un cliente ni un caso de éxito.",
+				"labelThree": "YOUTUBE",
+				"textThree": "Un recorrido por el proyecto: público, referencias, decisiones y resultado. Mostrar también lo descartado ayuda a entender el trabajo.",
+				"takeaway": "Borradores para revisar. Publicar desde Backroom todavía no está disponible."
+			},
+			"research": {
+				"title": "Las preguntas antes del lanzamiento",
+				"body": "Un punto de partida para investigar la oferta de Norte. Las referencias orientan; las hipótesis necesitan contraste.",
+				"labelOne": "LO QUE YA TENEMOS",
+				"textOne": "Un portfolio de diseño, una propuesta de público y un primer alcance: identidad, carta y envases para cafeterías independientes.",
+				"labelTwo": "LO QUE FALTA SABER",
+				"textTwo": "Cómo eligen estudio, qué presupuesto y calendario manejan y qué materiales les generan más trabajo antes de abrir. Son preguntas, no datos de mercado comprobados.",
+				"labelThree": "LA PRIMERA PRUEBA",
+				"textThree": "Enseñar una propuesta breve a posibles clientes y escuchar qué necesitan, qué no entienden y cómo lo resolverían sin Norte.",
+				"takeaway": "No hay una demanda validada ni fuentes de clientes inventadas en este ejemplo."
+			}
+		},
+		"v2": {
+			"hero": {
+				"titleA": "Haz crecer <growth>tu negocio.</growth>",
+				"titleB": "Sin tener que hacerlo <team>todo <you>tú.</you></team>",
+				"lead": "Tu equipo de IA conoce tu negocio, prepara campañas y proyectos, y tú solo decides.",
+				"secondary": "Ver cómo funciona",
+				"trust": {
+					"memory": "Memoria continua",
+					"control": "Nada sale sin tu permiso",
+					"account": "Con tu propia cuenta de IA"
+				}
+			},
+			"workspace": {
+				"tag": "Maqueta con datos ficticios",
+				"home": "Inicio",
+				"missions": "Misiones",
+				"knowledge": "Contexto",
+				"navigation": "Navegación de la demostración",
+				"search": "Buscar en tu negocio",
+				"business": "Tu negocio",
+				"conversations": "Conversaciones",
+				"documents": "Documentos",
+				"agenda": "Agenda",
+				"connections": "Conexiones",
+				"team": "Tu equipo",
+				"personal": "Cuenta personal",
+				"today": "Martes, 22 de septiembre",
+				"greeting": "Buenos días, Elena",
+				"greetingNight": "Buenas noches, Elena",
+				"greetingBody": "Tu equipo avanza. Esto es lo que merece tu atención.",
+				"decision": "Tu siguiente decisión",
+				"mission": "Dar forma a la nueva oferta de Norte",
+				"missionBody": "La propuesta y la página están preparadas. Falta elegir la promesa y revisar la publicación.",
+				"viewMission": "Ver misión",
+				"forYou": "Para ti",
+				"vegaAsks": "Vega necesita tu criterio",
+				"promise": "¿Qué promesa llevamos a la página?",
+				"promiseBody": "Dos enfoques preparados. Vega recomienda explicar el resultado.",
+				"seeOffer": "Ver la propuesta",
+				"nicoAsks": "Nico espera tu revisión",
+				"pageReady": "La página está lista para tu mirada.",
+				"pageBody": "Revisa la propuesta antes de decidir qué quieres publicar.",
+				"seePage": "Abrir documento",
+				"activeMissions": "Misiones en marcha",
+				"all": "Todas",
+				"inProgress": "En curso",
+				"missionsBody": "Resultados concretos. Un equipo responsable de cada siguiente paso.",
+				"missionOne": "Replantear la oferta del pack de diseño",
+				"missionTwo": "Construir la página de prueba",
+				"missionThree": "Preparar distribución en Instagram y X",
+				"missionFour": "Contrastar la siguiente hipótesis",
+				"prepared": "Preparada",
+				"deliverables": "{count} entregables",
+				"knowledgeBody": "Tu experiencia, tus decisiones y lo que vais aprendiendo.",
+				"briefLabel": "Comprensión del negocio",
+				"briefTitle": "Diseño con intención. Marcas con personalidad.",
+				"briefBody": "Norte ayuda a cafeterías independientes a contar quiénes son. Queremos una oferta clara, un proyecto piloto y conversaciones con negocios reales.",
+				"reviewed": "Revisado por Elena",
+				"sources": "De dónde viene",
+				"sourceOne": "Portfolio y casos anteriores",
+				"sourceTwo": "Referencias de marca",
+				"sourceThree": "Nuestra decisión: empezar con cafeterías",
+				"yourSource": "Fuente aportada por ti",
+				"yourDecision": "Una decisión del negocio",
+				"coordination": "Coordinación",
+				"sharedDirection": "Una dirección compartida",
+				"outputs": "Entregables",
+				"onTheTable": "Sobre la mesa",
+				"railOne": "Dar forma a la oferta",
+				"railTwo": "Construir la página",
+				"forReview": "Para revisar",
+				"atHand": "A mano",
+				"offer": "Propuesta",
+				"railNote": "Clara coordina a Nico y Vega para que el trabajo avance contigo."
+			},
+			"final": {
+				"body": "Puedes empezar tanto si tu negocio ya está en marcha como si todavía es una idea."
+			}
+		},
+		"v3": {
+			"hero": {
+				"status": {
+					"research": "Investigando tu mercado",
+					"compare": "Comparando tres enfoques",
+					"ready": "Listo para que lo revises"
+				}
+			},
+			"requests": {
+				"label": "Pídeselo como se lo pedirías a tu equipo",
+				"tag": "Ejemplos de encargos",
+				"items": {
+					"hooks": "Prepara tres ganchos para X sobre mi oferta",
+					"script": "Convierte este hilo en un guion para YouTube",
+					"review": "Revisa la página antes de enseñarla",
+					"research": "Mira cómo lo resuelven otros y dime qué probarías",
+					"recap": "Resume lo que decidimos el martes",
+					"email": "Escribe el correo para quienes se apuntaron",
+					"pricing": "Propón dos precios y explica cuál probarías",
+					"questions": "Saca las dudas que más repiten mis clientes",
+					"carousel": "Prepara un carrusel de Instagram con esta idea",
+					"week": "Ordena lo que queda pendiente esta semana",
+					"angles": "Dame tres formas de contar el lanzamiento",
+					"compare": "Compara estas dos ofertas con lo que ya sabemos"
+				}
+			},
+			"faq": {
+				"eyebrow": "Por si te lo estabas preguntando"
+			},
+			"final": {
+				"eyebrow": "Acceso anticipado",
+				"title": "¿Hasta dónde llegarías",
+				"soft": "con un equipo detrás?",
+				"noCard": "Sin tarjeta",
+				"noCommitment": "Sin compromiso",
+				"light": "Solo tu correo y una frase"
+			},
+			"close": "Cerrar",
+			"pauseAll": "Pausar animaciones",
+			"resumeAll": "Reanudar animaciones"
+		},
+		"v4": {
+			"states": {
+				"live": "Ya funciona",
+				"building": "En construcción",
+				"later": "Más adelante"
+			},
+			"launch": {
+				"eyebrow": "Hazlo llegar",
+				"title": "Que te conozcan.",
+				"soft": "Sin vivir pendiente de las redes.",
+				"lead": "Dale a tu equipo un objetivo y se encarga del resto: prepara cada publicación con lo que sabe de tu negocio, la publica cuando das el visto bueno, mide qué funciona y vigila a tu competencia.",
+				"chips": {
+					"missions": "Misiones",
+					"publish": "Publicar, medir y competencia"
+				},
+				"mission": "Dar a conocer el pack para cafeterías",
+				"goalLabel": "Objetivo",
+				"goal": "20 solicitudes de presupuesto en octubre",
+				"progress": "12 de 20 solicitudes",
+				"repeat": "Cada semana",
+				"tabs": {
+					"now": "Esta semana",
+					"later": "Una semana después",
+					"label": "Ver la misión"
+				},
+				"x": {
+					"when": "Lun, 10:00",
+					"state": "Publicado",
+					"handle": "@nortestudio",
+					"ago": "2 h",
+					"text": "Una cafetería empieza a contar su historia antes del primer café. En el vaso, en la carta, en el letrero.",
+					"textTwo": "Así diseñamos una identidad para que todos esos detalles hablen el mismo idioma.",
+					"replies": "12",
+					"reposts": "9",
+					"likes": "63",
+					"views": "4,8 mil",
+					"metricOne": "visualizaciones",
+					"metricTwo": "solicitudes",
+					"valueOne": "4.812",
+					"valueTwo": "2",
+					"used": "Usó tu portfolio y tu tono",
+					"later": {
+						"valueOne": "6.204",
+						"valueTwo": "3",
+						"views": "6,2 mil",
+						"likes": "88",
+						"replies": "17",
+						"reposts": "14"
+					},
+					"agoLater": "7 d"
+				},
+				"instagram": {
+					"when": "Mié, 10:00",
+					"state": "Espera tu visto bueno",
+					"caption": "Del vaso a la carta. Una marca se siente en los detalles.",
+					"approve": "Aprobar y programar",
+					"changes": "Pedir cambios",
+					"scheduledState": "Programado",
+					"scheduled": "Programado para el miércoles a las 10:00",
+					"undo": "Deshacer",
+					"used": "Usó el concepto Soma y las dudas de tus clientes",
+					"publishedState": "Publicado",
+					"later": {
+						"valueOne": "8.930",
+						"metricOne": "personas alcanzadas",
+						"valueTwo": "4",
+						"metricTwo": "solicitudes"
+					}
+				},
+				"youtube": {
+					"when": "Vie, 18:00",
+					"state": "Guion listo",
+					"cover": "De una idea a una identidad.",
+					"title": "Cómo diseñamos una cafetería antes de abrir",
+					"draft": "Borrador",
+					"duration": "8:24",
+					"step": "Guion listo para que lo grabes",
+					"stepCount": "3 partes, unos 8 minutos",
+					"used": "Usó tu proceso y el vídeo anterior",
+					"publishedState": "Publicado",
+					"later": {
+						"valueOne": "1.240",
+						"metricOne": "visualizaciones",
+						"valueTwo": "2",
+						"metricTwo": "solicitudes",
+						"meta": "1,2 mil visualizaciones · hace 3 días"
+					}
+				},
+				"insight": {
+					"label": "Resultados y competencia",
+					"text": "El carrusel de la semana pasada trajo 5 de las 12 solicitudes, y los estudios que más crecen también enseñan su proceso. ¿Preparo otro para el viernes?",
+					"action": "Sí, prepáralo",
+					"added": "Lo tendrás el viernes",
+					"laterLabel": "Informe de la semana",
+					"laterText": "Llegaron 7 solicitudes nuevas y ya vas por 19 de 20. Lo que mejor funciona sigue siendo enseñar el proceso: el carrusel trajo 4.",
+					"saved": "Guardado en Contexto",
+					"undo": "Deshacer",
+					"save": "Guardar en Contexto"
+				},
+				"progressLater": "19 de 20 solicitudes"
+			},
+			"team": {
+				"eyebrow": "Cómo trabajas con tu equipo",
+				"title": "Lo pides en una frase.",
+				"soft": "Tu equipo lo convierte en una misión.",
+				"lead": "Clara entiende lo que quieres, te pregunta solo lo que falta y reparte el trabajo. Ves quién hace qué, lo que espera tu decisión y cada resultado en cuanto está listo.",
+				"chips": {
+					"chat": "Conversaciones",
+					"missions": "Misiones"
+				},
+				"mission": "Lanzar el pack para cafeterías",
+				"goal": "Cinco conversaciones con cafeterías antes del 31 de octubre",
+				"role": "Coordinación",
+				"prompt": "Quiero ofrecer diseño de marca a cafeterías que van a abrir. Tengo mi portfolio. ¿Le damos forma?",
+				"read": "Leyó tu portfolio y lo que sabe de Norte",
+				"question": "¿Qué sería un buen resultado este mes?",
+				"answer": "Cinco conversaciones con cafeterías",
+				"reply": "Hecho. He creado la misión y repartido el trabajo: Vega investiga, Nico prepara la propuesta y la página, y yo coordino. Lo que necesite tu decisión te llegará a Para ti.",
+				"created": "Misión creada",
+				"composer": "¿En qué quieres que trabaje el equipo?",
+				"columns": {
+					"todo": "Por hacer",
+					"running": "En curso",
+					"review": "Para ti",
+					"done": "Hecho"
+				},
+				"cards": {
+					"research": {
+						"title": "Investigar seis estudios parecidos",
+						"meta": "6 fuentes"
+					},
+					"brief": {
+						"title": "Brief de la misión",
+						"meta": "Objetivo y reparto"
+					},
+					"offer": {
+						"title": "Revisar la propuesta de oferta",
+						"meta": "Versión 2"
+					},
+					"promise": {
+						"title": "Elegir la promesa de la página",
+						"meta": "Vega recomienda A"
+					},
+					"page": {
+						"title": "Página del pack",
+						"meta": "Escribiendo"
+					},
+					"list": {
+						"title": "Cafeterías que abren este trimestre",
+						"meta": "14 encontradas"
+					},
+					"content": {
+						"title": "Publicaciones para X, Instagram y YouTube",
+						"meta": "Tras la página"
+					},
+					"email": {
+						"title": "Correo para las cafeterías interesadas",
+						"meta": "Pedirá permiso"
+					},
+					"tone": {
+						"title": "Tono y mensajes clave",
+						"meta": "En Contexto"
+					}
+				},
+				"open": "Abrir"
+			},
+			"context": {
+				"eyebrow": "Memoria",
+				"title": "Tu equipo sabe lo que tú sabes.",
+				"soft": "Y lo corriges en una frase.",
+				"lead": "Tu oferta, tus clientes, tu tono y cada decisión quedan en una memoria que el equipo consulta antes de trabajar. La lees, la corriges cuando cambias de idea y cada versión se guarda.",
+				"facts": {
+					"sources": "Parte de tus archivos y de lo que decides",
+					"fix": "Una corrección llega a todo el equipo",
+					"own": "Cada negocio tiene la suya"
+				},
+				"chip": "Memoria y fuentes",
+				"tabs": {
+					"sources": "Fuentes"
+				},
+				"noteTitle": "Lo que el equipo sabe de Norte Studio",
+				"revisionBefore": "Revisión 6, hace 3 días",
+				"revisionAfter": "Revisión 7, ahora, por ti",
+				"sections": {
+					"offer": "Oferta",
+					"audience": "Para quién",
+					"price": "Precio",
+					"tone": "Tono"
+				},
+				"offer": "Identidad de marca para cafeterías independientes: dirección visual, carta y envases.",
+				"audienceBefore": "Cafeterías que ya funcionan y quieren renovarse.",
+				"audienceAfter": "Cafeterías que van a abrir en los próximos meses.",
+				"priceBefore": "Pack inicial, 2.400 €.",
+				"priceAfter": "Pack inicial, 1.800 €, con una revisión incluida.",
+				"tone": "Cercano y visual, sin tecnicismos.",
+				"you": "Tú",
+				"correction": "Mejor cafeterías que van a abrir, no las que ya funcionan. Y el pack a 1.800 €, con una revisión incluida.",
+				"apply": "Aplicar la corrección",
+				"reset": "Volver al punto de partida",
+				"sources": {
+					"portfolio": "Portfolio de Norte",
+					"prices": "Tarifas 2026",
+					"questions": "Dudas de clientes"
+				},
+				"versionLabel": "v{n}",
+				"teamTitle": "En su próximo encargo",
+				"vega": {
+					"before": "Busco cafeterías que quieran renovar su marca.",
+					"after": "Busco cafeterías que abren este trimestre."
+				},
+				"nico": {
+					"before": "Preparo la página con el pack a 2.400 €.",
+					"after": "Preparo la página con el pack a 1.800 €."
+				},
+				"announce": "Corrección aplicada. Vega y Nico parten de la nueva versión."
+			},
+			"foryou": {
+				"eyebrow": "Tú decides",
+				"title": "Cierra la app.",
+				"soft": "Tu equipo sigue avanzando.",
+				"lead": "Tu equipo avanza con todo lo que no depende de ti. Lo que sí, te espera en Para ti, y en cuanto respondes sigue justo donde lo dejó.",
+				"facts": {
+					"permission": "Publicar, enviar o gastar siempre te pide permiso",
+					"weekly": "Lo de cada semana se programa una vez",
+					"wait": "Respondes cuando puedas, también desde el móvil"
+				},
+				"chip": "Para ti y Agenda",
+				"title2": "Para ti",
+				"kinds": {
+					"permission": "Permiso",
+					"agenda": "Agenda"
+				},
+				"permission": {
+					"when": "Hoy, 9:05",
+					"title": "Publicar el carrusel en Instagram",
+					"detail": "Miércoles a las 10:00",
+					"scope": "Solo esta acción y solo una vez.",
+					"allow": "Permitir una vez",
+					"deny": "No permitir",
+					"done": "Permitido una vez. Se publicará el miércoles a las 10:00.",
+					"undo": "Deshacer"
+				},
+				"agenda": {
+					"when": "Cada lunes, 9:00",
+					"title": "Resumen de la semana",
+					"body": "3 publicaciones, 12 solicitudes y una decisión pendiente."
+				},
+				"chipPublish": "Publicar",
+				"meanwhile": {
+					"title": "Mientras tanto",
+					"vega": "Vega terminó la lista: 14 cafeterías",
+					"nico": "Nico va por la página del pack"
+				}
+			}
+		}
+	},
+	"earlyAccess": {
+		"title": "Pide tu acceso",
+		"description": "Te escribimos cuando podamos abrírtelo. Enviar el formulario no crea una cuenta.",
+		"email": "Correo electrónico",
+		"emailPlaceholder": "tu@empresa.com",
+		"intent": "¿Qué te gustaría sacar adelante?",
+		"intentPlaceholder": "Por ejemplo: dar forma a una oferta, lanzar mi producto o dar a conocer mi negocio.",
+		"intentHint": "Una frase basta. Entre 10 y 1.000 caracteres.",
+		"consent": "Acepto que Backroom me contacte sobre el acceso anticipado.",
+		"submit": "Pedir acceso",
+		"successTitle": "Hemos registrado tu interés",
+		"successDescription": "Gracias por contarnos qué quieres construir. Usaremos tu correo para contactarte sobre el acceso anticipado.",
+		"error": "No pudimos guardar tu solicitud. Inténtalo de nuevo.",
+		"invalidEmail": "Introduce un correo válido.",
+		"invalidIntent": "Escribe entre 10 y 1.000 caracteres.",
+		"requiredConsent": "Acepta el contacto antes de enviar."
+	}
+}

@@ -1,0 +1,69 @@
+import { BrandMark } from "@home/components/BrandMark";
+import { Mascot } from "@home/components/v3/Mascot";
+import { getTranslations } from "next-intl/server";
+import { ImageResponse } from "next/og";
+
+export const alt = "Backroom";
+export const size = { width: 1200, height: 630 };
+export const contentType = "image/png";
+
+export default async function Image({ params }: { params: Promise<{ locale: string }> }) {
+	const { locale } = await params;
+	const t = await getTranslations({ locale, namespace: "landing.v2.hero" });
+	const plain = (chunks: string) => chunks;
+	return new ImageResponse(
+		<div
+			style={{
+				display: "flex",
+				flexDirection: "column",
+				width: "100%",
+				height: "100%",
+				padding: "64px 76px",
+				color: "#f6f5f2",
+				background: "radial-gradient(70% 90% at 50% 120%, #2563d6 0%, #13306f 45%, #0f1013 80%)",
+			}}
+		>
+			<div
+				style={{
+					display: "flex",
+					alignItems: "center",
+					gap: 12,
+					fontSize: 36,
+					fontWeight: 600,
+					letterSpacing: -2,
+				}}
+			>
+				<span style={{ display: "flex", width: 38, height: 38 }}>
+					<BrandMark />
+				</span>
+				backroom.
+			</div>
+			<div
+				style={{
+					display: "flex",
+					flexDirection: "column",
+					marginTop: 70,
+					fontSize: 76,
+					lineHeight: 1.08,
+					letterSpacing: -4,
+				}}
+			>
+				<div style={{ display: "flex" }}>{t.markup("titleA", { growth: plain })}</div>
+				<div style={{ display: "flex", color: "#7fb0ff" }}>
+					{t.markup("titleB", { team: plain, you: plain })}
+				</div>
+			</div>
+			<div style={{ display: "flex", alignItems: "center", marginTop: "auto" }}>
+				{(["spark", "maker", "orbit"] as const).map((kind) => (
+					<span key={kind} style={{ display: "flex", width: 70, height: 70, marginRight: 6 }}>
+						<Mascot kind={kind} />
+					</span>
+				))}
+				<span style={{ display: "flex", marginLeft: 18, fontSize: 24, color: "#b8c7e4" }}>
+					X · Instagram · YouTube
+				</span>
+			</div>
+		</div>,
+		size,
+	);
+}

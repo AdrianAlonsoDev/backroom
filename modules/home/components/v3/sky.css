@@ -1,0 +1,220 @@
+/* The hero sky. One scene per theme with a single light source each:
+   day is a clear morning, pure white behind the words and clear blue around them;
+   night is dark and almost empty, so the product's glow is the brightest thing in it.
+   Detail lives at the horizon, never behind the text. */
+
+/* Header: transparent over the sky at the top of the home page, glass once the page moves. */
+.site-nav[data-overlay="true"] {
+	transition:
+		background-color 0.35s ease,
+		box-shadow 0.35s ease,
+		-webkit-backdrop-filter 0.35s ease,
+		backdrop-filter 0.35s ease;
+}
+.site-nav[data-overlay="true"]:not([data-scrolled="true"], [data-open="true"]) {
+	background: transparent;
+	-webkit-backdrop-filter: none;
+	backdrop-filter: none;
+}
+.site-nav[data-overlay="true"][data-scrolled="true"] {
+	box-shadow: 0 1px 0 var(--cl-line);
+}
+/* Over the blue morning sky the small links take the ink, so they keep 4.5:1. */
+:root:not(.dark) .site-nav[data-overlay="true"]:not([data-scrolled="true"], [data-open="true"]) {
+	--cl-body: #1c2433;
+}
+
+/* Day: a clear morning. Pure white light behind the words and clear blue around it, so the
+   clouds at the sides read white. No pale blue tints: next to the white product they look grey. */
+.v3-hero {
+	--sky-zenith: #78b0fb;
+	--sky-high: #92c3ff;
+	--sky-low: #a9d0ff;
+	--sky-haze: #c0deff;
+	/* White light behind the whole block of words. Narrower screens set a wider size in their
+	   media queries: a gradient's size takes no min(), max() or calc() with percentages. */
+	--sky-sun-size: 62% 410px;
+	--sky-sun-at: 47% 250px;
+	--sky-sun: radial-gradient(
+		var(--sky-sun-size) at var(--sky-sun-at),
+		#fff 0,
+		#fff 58%,
+		#ffffffb3 74%,
+		#ffffff40 88%,
+		#fff0 100%
+	);
+	--hero-line-two: #1c3b73;
+	--cl-body: #273042;
+	--cl-muted: #39435a;
+	background:
+		var(--sky-sun),
+		linear-gradient(
+			180deg,
+			var(--sky-zenith) 0,
+			var(--sky-high) 260px,
+			var(--sky-low) 560px,
+			var(--sky-haze) 860px
+		);
+}
+/* The second line takes the sky's ink: night blue by day, moonlight at night. */
+.v3-hero .v2-hero-line-accent {
+	color: var(--hero-line-two);
+}
+.v3-hero .v2-hero-line-accent .v2-hero-phrase {
+	background-image: linear-gradient(90deg, #c96200 1.3em, #dc3f2a 3.2em);
+}
+.v3-hero .v2-hero-you {
+	background-image: linear-gradient(90deg, #2563d6, #1a4fbf);
+}
+.dark .v3-hero .v2-hero-you {
+	background-image: linear-gradient(90deg, #5b9bff, #3d86ff);
+}
+.dark .v3-hero .v2-hero-line-accent .v2-hero-phrase {
+	background-image: linear-gradient(90deg, #ffb02e 1.3em, #ff6b57 3.2em);
+}
+/* Night: almost black with a trace of blue towards the horizon, so the glow stands out. */
+.dark .v3-hero {
+	--sky-sun: linear-gradient(transparent, transparent);
+	--sky-zenith: #020308;
+	--sky-high: #03050b;
+	--sky-low: #050913;
+	--sky-haze: #081020;
+	--hero-line-two: #b7c9ec;
+	--cl-body: #c3cbd9;
+	--cl-muted: #a9b3c6;
+}
+
+.v3-sky {
+	position: absolute;
+	inset: 0 0 auto;
+	height: 820px;
+	z-index: -1;
+	pointer-events: none;
+}
+
+/* A barely visible grain: it only breaks gradient banding. Soft light lifts blacks, so any
+   stronger and the night turns grey and the day looks dusty. */
+.v3-sky::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+	mix-blend-mode: soft-light;
+	opacity: 0.035;
+	-webkit-mask-image: linear-gradient(180deg, #000 0, #000 70%, transparent);
+	mask-image: linear-gradient(180deg, #000 0, #000 70%, transparent);
+}
+/* Stars: night only and dim, thinning towards the horizon and fainter behind the words. */
+.v3-stars {
+	display: none;
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	fill: #f4f7ff;
+	-webkit-mask-image:
+		linear-gradient(180deg, #000 0, #000 55%, transparent 92%),
+		radial-gradient(ellipse 75% 46% at 46% 44%, #0002 0, #0002 72%, #000 100%);
+	-webkit-mask-composite: source-in;
+	mask-image:
+		linear-gradient(180deg, #000 0, #000 55%, transparent 92%),
+		radial-gradient(ellipse 75% 46% at 46% 44%, #0002 0, #0002 72%, #000 100%);
+	mask-composite: intersect;
+}
+.dark .v3-stars {
+	display: block;
+	opacity: 0.5;
+}
+@media (prefers-reduced-motion: no-preference) {
+	.v3-sky[data-motion-running="true"] .v3-star-twinkle {
+		animation: v3-sky-twinkle 5.2s ease-in-out infinite;
+	}
+}
+@keyframes v3-sky-twinkle {
+	0%,
+	100% {
+		fill-opacity: 1;
+	}
+	50% {
+		fill-opacity: 0.35;
+	}
+}
+
+/* Clouds: a pre-rendered cumulus bank anchored to the product's top edge. */
+.v3-clouds {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 2400px;
+	height: 1000px;
+	/* The art's horizon (38% down) sits on the product's top edge. */
+	translate: -50% -38%;
+	z-index: 0;
+	pointer-events: none;
+	-webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+	mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+}
+.v3-clouds-layer {
+	position: absolute;
+	inset: 0;
+	background: url("/images/landing/hero-clouds-day.webp") center / 100% 100% no-repeat;
+}
+.dark .v3-clouds-layer {
+	background-image: url("/images/landing/hero-clouds-night.webp");
+}
+@media (prefers-reduced-motion: no-preference) {
+	[data-motion-running="true"] .v3-clouds-layer {
+		animation: v3-sky-drift 70s ease-in-out infinite alternate;
+	}
+}
+@keyframes v3-sky-drift {
+	from {
+		translate: -22px 0;
+	}
+	to {
+		translate: 22px 0;
+	}
+}
+
+/* Tablets and phones: the frame fills the width, so a compact bank peeks over its top edge. */
+@media (max-width: 1100px) {
+	.v3-clouds {
+		width: calc(100% + 160px);
+		height: auto;
+		aspect-ratio: 1800 / 760;
+		translate: -50% -63%;
+		-webkit-mask-image: none;
+		mask-image: none;
+	}
+	.v3-clouds-layer {
+		background-image: url("/images/landing/hero-clouds-compact-day.webp");
+	}
+	.dark .v3-clouds-layer {
+		background-image: url("/images/landing/hero-clouds-compact-night.webp");
+	}
+	/* The white light ends above the cloud tops, so they sit on blue and read white. */
+	.v3-hero {
+		--sky-sun-size: 82% 250px;
+		--sky-sun-at: 50% 220px;
+	}
+	/* Room for the cloud tops between the guarantees and the product. */
+	.v3-hero-stage {
+		margin-top: clamp(64px, 9vw, 100px);
+	}
+}
+@media (max-width: 850px) {
+	.v3-hero {
+		--cl-nav-h: 69px;
+		--sky-sun-size: 100% 250px;
+		--sky-sun-at: 50% 215px;
+	}
+}
+@media (max-width: 620px) {
+	.v3-hero {
+		--cl-nav-h: 66px;
+		/* Phones: the words run taller, so the white light covers the whole column. */
+		--sky-sun-size: 150% 330px;
+		--sky-sun-at: 50% 330px;
+	}
+}

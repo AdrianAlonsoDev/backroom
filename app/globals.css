@@ -1,0 +1,91 @@
+@import "../modules/home/components/landing-theme.css";
+@import "../modules/home/components/landing.css";
+@import "../modules/home/components/example-document.css";
+@import "../modules/home/components/product-first/product-first.css";
+@import "../modules/home/components/product-first/workspace-preview.css";
+@import "../modules/home/components/v3/foundation.css";
+@import "../modules/home/components/v3/hero.css";
+@import "../modules/home/components/v3/sky.css";
+@import "../modules/home/components/v3/closing.css";
+@import "../modules/home/components/sections/sections.css";
+@import "../modules/shared/ui/ui.css";
+
+/* A small reset in its own layer, so every landing rule outside it wins. */
+@layer reset {
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		border: 0 solid;
+	}
+	html {
+		-webkit-text-size-adjust: 100%;
+		tab-size: 4;
+		line-height: 1.5;
+	}
+	body {
+		min-height: 100vh;
+		background: var(--cl-bg);
+		color: var(--cl-ink);
+		font-family: var(--font-inter), system-ui, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	img,
+	svg,
+	video,
+	canvas {
+		display: block;
+		max-width: 100%;
+	}
+	img,
+	video {
+		height: auto;
+	}
+	input,
+	button,
+	textarea,
+	select {
+		font: inherit;
+		color: inherit;
+		letter-spacing: inherit;
+		background: transparent;
+	}
+	button,
+	select {
+		cursor: pointer;
+	}
+	:disabled {
+		cursor: default;
+	}
+	textarea {
+		resize: vertical;
+	}
+	a {
+		color: inherit;
+		text-decoration: inherit;
+	}
+	ol,
+	ul,
+	menu {
+		list-style: none;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: inherit;
+		font-weight: inherit;
+	}
+	::placeholder {
+		opacity: 1;
+		color: color-mix(in oklab, currentColor 50%, transparent);
+	}
+	[hidden]:where(:not([hidden="until-found"])) {
+		display: none !important;
+	}
+}

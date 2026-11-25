@@ -1,0 +1,8 @@
+# Only sharp needs its install script (it is used by the optional cloud renderer).
+allowBuilds:
+  sharp: true
+  "@parcel/watcher": false
+  "@swc/core": false
+
+# Wait a day before installing a newly published version (supply chain safety).
+minimumReleaseAge: 1440
