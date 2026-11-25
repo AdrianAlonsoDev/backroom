@@ -15,7 +15,7 @@ export async function Footer() {
 					</nav>
 				</div>
 				<div className="footer-big" aria-hidden="true">
-					<BrandMark />
+					<BrandMark variant="mono" />
 					<span>backroom.</span>
 				</div>
 				<div className="footer-bottom">

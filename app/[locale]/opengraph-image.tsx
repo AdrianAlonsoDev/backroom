@@ -1,4 +1,4 @@
-import { BrandMark } from "@home/components/BrandMark";
+import { BrandMarkArt } from "@home/components/BrandMark";
 import { Mascot } from "@home/components/v3/Mascot";
 import { getTranslations } from "next-intl/server";
 import { ImageResponse } from "next/og";
@@ -34,9 +34,11 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
 				}}
 			>
 				<span style={{ display: "flex", width: 38, height: 38 }}>
-					<BrandMark />
+					<BrandMarkArt gradientId="og-light" onDark />
 				</span>
-				backroom.
+				<span style={{ display: "flex" }}>
+					backroom<span style={{ color: "#f59a2a" }}>.</span>
+				</span>
 			</div>
 			<div
 				style={{

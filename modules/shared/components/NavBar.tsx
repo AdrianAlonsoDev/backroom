@@ -55,7 +55,9 @@ export function NavBar() {
 			<div className="cl-container site-nav-inner">
 				<LocaleLink href="/" className="cl-wordmark" aria-label="Backroom">
 					<BrandMark />
-					backroom.
+					<span>
+						backroom<span className="cl-wordmark-dot">.</span>
+					</span>
 				</LocaleLink>
 				<nav className="cl-nav-links" aria-label={t("nav.label")}>
 					{links.map(([key, href]) => (
