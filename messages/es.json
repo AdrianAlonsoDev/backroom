@@ -1,8 +1,8 @@
 {
 	"landing": {
 		"meta": {
-			"title": "Backroom — Haz crecer tu negocio. Sin tener que hacerlo todo tú.",
-			"description": "Un equipo de IA que trabaja con el contexto de tu negocio: prepara ofertas, investigaciones y borradores para X, Instagram y YouTube. En acceso anticipado."
+			"title": "Haz crecer tu negocio sin hacerlo todo tú | Backroom",
+			"description": "Un equipo de IA que lee lo que sabes de tu negocio y prepara ofertas, investigaciones y borradores para X, Instagram y YouTube. Nada sale sin tu permiso. En acceso anticipado."
 		},
 		"cta": "Pedir acceso",
 		"nav": {
@@ -23,18 +23,18 @@
 		},
 		"faq": {
 			"title": "Hablemos claro.",
-			"description": "Lo esencial antes de sumarte.",
+			"description": "Siete respuestas antes de pedir acceso.",
 			"one": {
 				"q": "¿Para quién es Backroom?",
-				"a": "Para founders, profesionales con una oferta propia y equipos pequeños que quieren construir, lanzar o hacer crecer un negocio. Encaja especialmente si tienes algo real entre manos y la investigación, la creación y la distribución siguen dependiendo de ti."
+				"a": "Para founders, profesionales con una oferta propia y equipos pequeños que quieren construir, lanzar o hacer crecer un negocio. Encaja mejor si ya tienes algo entre manos y la investigación, los textos y las publicaciones siguen saliendo de ti."
 			},
 			"two": {
 				"q": "¿Y si todavía solo tengo una idea?",
-				"a": "También puedes empezar ahí. El primer trabajo puede ser entender el problema, contrastar una oferta o preparar una prueba pequeña. No tienes que fingir que ya tienes clientes; las hipótesis deben seguir siendo hipótesis."
+				"a": "También puedes empezar ahí. El primer encargo puede ser entender el problema, contrastar una oferta o preparar una prueba pequeña. No hace falta fingir que ya tienes clientes, y lo que todavía es una suposición se trata como suposición."
 			},
 			"three": {
 				"q": "¿Qué diferencia hay con un chat de IA?",
-				"a": "Un chat responde a lo que le pides. Backroom parte de lo que ya sabe de tu negocio, trabaja con un método —qué investigar, qué preparar, cómo incorporar tus correcciones— y deja resultados que puedes abrir y pedir cambiar. Lo que corriges una vez lo usa todo el equipo."
+				"a": "Un chat responde a lo que le pides en ese momento. Backroom parte de lo que ya sabe de tu negocio, decide qué investigar y qué preparar, y te deja documentos que puedes abrir y pedir que cambien. Lo que corriges una vez lo usa todo el equipo a partir de entonces."
 			},
 			"four": {
 				"q": "¿Publica por mí en X, Instagram y YouTube?",
@@ -42,15 +42,15 @@
 			},
 			"five": {
 				"q": "¿Puedo probarlo ya?",
-				"a": "Estamos preparando el acceso anticipado. Deja tu correo y cuéntanos qué quieres sacar adelante. Te contactaremos cuando podamos abrirte acceso; enviar el formulario no crea todavía una cuenta ni garantiza una fecha. En nuestra versión privada ya funcionan las conversaciones con tu equipo, los resultados que abres y pides cambiar, la memoria compartida que corriges y el uso de tu propia cuenta de IA. Las misiones, Para ti y el trabajo de cada semana están en construcción. Conectar tus canales, publicar y medir llegarán después."
+				"a": "Estamos preparando el acceso anticipado. Deja tu correo y cuéntanos qué quieres sacar adelante, y te escribiremos cuando podamos abrirte acceso. Enviar el formulario no crea una cuenta ni garantiza una fecha. En nuestra versión privada ya funcionan las conversaciones con tu equipo, los resultados que abres y pides cambiar, la memoria compartida que corriges y el uso de tu propia cuenta de IA. Las misiones, Para ti y el trabajo de cada semana están en construcción, y conectar tus canales, publicar y medir vendrán después."
 			},
 			"six": {
 				"q": "¿Cuánto cuesta?",
-				"a": "Aún no hemos publicado precios. Pedir acceso no requiere tarjeta ni activa una suscripción. Para usarlo trabajarás con tu propia cuenta de IA; si es de pago, ese coste va aparte y lo gestionas tú. Conocerás las condiciones antes de decidir si quieres usar el producto."
+				"a": "Aún no hemos publicado precios. Pedir acceso no requiere tarjeta ni activa una suscripción. Para usarlo trabajarás con tu propia cuenta de IA, y si es de pago, ese coste va aparte y lo gestionas tú. Conocerás las condiciones antes de decidir si quieres usar el producto."
 			},
 			"seven": {
 				"q": "¿Qué pasa con la información de mi negocio?",
-				"a": "Lo que decides queda en la memoria de tu negocio: puedes leerla y corregirla, y cada negocio tiene la suya. Las conversaciones se procesan con tu propia cuenta de IA, según las condiciones de ese proveedor. Publicar o leer datos privados en tu nombre pedirá siempre tu autorización. Antes de empezar te explicaremos qué se guarda y cómo borrarlo; mientras tanto, la <privacy>política de privacidad</privacy> explica qué hacemos con lo que envías en el formulario de acceso."
+				"a": "Lo que decides queda en la memoria de tu negocio: puedes leerla y corregirla, y cada negocio tiene la suya. Las conversaciones se procesan con tu propia cuenta de IA, según las condiciones de ese proveedor. Publicar o leer datos privados en tu nombre pedirá siempre tu autorización. Antes de empezar te explicaremos qué se guarda y cómo borrarlo."
 			}
 		},
 		"footer": {
@@ -58,7 +58,7 @@
 			"label": "Enlaces del pie de página",
 			"product": "Explorar el producto",
 			"contact": "Pedir acceso",
-			"signature": "Ideas que encuentran su siguiente paso."
+			"signature": "Esta landing es de código abierto, con licencia MIT."
 		},
 		"artifacts": {
 			"label": "EJEMPLO FICTICIO · NORTE STUDIO",
@@ -84,7 +84,7 @@
 				"textTwo": "Una dirección visual y sus primeras aplicaciones: identidad, carta y envases. Un proyecto coherente, con un alcance que se acuerda antes de empezar.",
 				"labelThree": "UN SIGUIENTE PASO",
 				"textThree": "Cuéntanos qué cafetería tienes en mente, qué has preparado y qué necesitas para abrir. A partir de ahí, damos forma a la propuesta.",
-				"takeaway": "La página ilustra una oferta; su formulario no está conectado a un estudio real."
+				"takeaway": "La página ilustra una oferta. Su formulario no está conectado a un estudio real."
 			},
 			"content": {
 				"title": "Una identidad. Tres conversaciones.",
@@ -99,7 +99,7 @@
 			},
 			"research": {
 				"title": "Las preguntas antes del lanzamiento",
-				"body": "Un punto de partida para investigar la oferta de Norte. Las referencias orientan; las hipótesis necesitan contraste.",
+				"body": "Un punto de partida para investigar la oferta de Norte. Las referencias orientan, pero las hipótesis hay que contrastarlas.",
 				"labelOne": "LO QUE YA TENEMOS",
 				"textOne": "Un portfolio de diseño, una propuesta de público y un primer alcance: identidad, carta y envases para cafeterías independientes.",
 				"labelTwo": "LO QUE FALTA SABER",
@@ -113,10 +113,10 @@
 			"hero": {
 				"titleA": "Haz crecer <growth>tu negocio.</growth>",
 				"titleB": "Sin tener que hacerlo <team>todo <you>tú.</you></team>",
-				"lead": "Tu equipo de IA conoce tu negocio, prepara campañas y proyectos, y tú solo decides.",
+				"lead": "Tu equipo de IA investiga, prepara tu oferta y escribe tus publicaciones con lo que sabe de tu negocio, y nada sale sin que lo apruebes.",
 				"secondary": "Ver cómo funciona",
 				"trust": {
-					"memory": "Memoria continua",
+					"memory": "Recuerda lo que decides",
 					"control": "Nada sale sin tu permiso",
 					"account": "Con tu propia cuenta de IA"
 				}
@@ -138,7 +138,7 @@
 				"today": "Martes, 22 de septiembre",
 				"greeting": "Buenos días, Elena",
 				"greetingNight": "Buenas noches, Elena",
-				"greetingBody": "Tu equipo avanza. Esto es lo que merece tu atención.",
+				"greetingBody": "Hoy hay dos cosas que esperan tu decisión.",
 				"decision": "Tu siguiente decisión",
 				"mission": "Dar forma a la nueva oferta de Norte",
 				"missionBody": "La propuesta y la página están preparadas. Falta elegir la promesa y revisar la publicación.",
@@ -185,7 +185,7 @@
 				"railNote": "Clara coordina a Nico y Vega para que el trabajo avance contigo."
 			},
 			"final": {
-				"body": "Puedes empezar tanto si tu negocio ya está en marcha como si todavía es una idea."
+				"body": "Si todavía es una idea, el primer encargo puede ser comprobar si alguien la pagaría."
 			}
 		},
 		"v3": {
@@ -222,7 +222,7 @@
 				"title": "¿Hasta dónde llegarías",
 				"soft": "con un equipo detrás?",
 				"noCard": "Sin tarjeta",
-				"noCommitment": "Sin compromiso",
+				"noCommitment": "No crea una cuenta",
 				"light": "Solo tu correo y una frase"
 			},
 			"close": "Cerrar",
@@ -239,7 +239,7 @@
 				"eyebrow": "Hazlo llegar",
 				"title": "Que te conozcan.",
 				"soft": "Sin vivir pendiente de las redes.",
-				"lead": "Dale a tu equipo un objetivo y se encarga del resto: prepara cada publicación con lo que sabe de tu negocio, la publica cuando das el visto bueno, mide qué funciona y vigila a tu competencia.",
+				"lead": "Le das un objetivo, como 20 solicitudes de presupuesto en octubre, y tu equipo prepara cada publicación con lo que sabe de tu negocio. Publicar por ti, medir y seguir a tu competencia llegarán más adelante.",
 				"chips": {
 					"missions": "Misiones",
 					"publish": "Publicar, medir y competencia"
@@ -334,7 +334,7 @@
 				"eyebrow": "Cómo trabajas con tu equipo",
 				"title": "Lo pides en una frase.",
 				"soft": "Tu equipo lo convierte en una misión.",
-				"lead": "Clara entiende lo que quieres, te pregunta solo lo que falta y reparte el trabajo. Ves quién hace qué, lo que espera tu decisión y cada resultado en cuanto está listo.",
+				"lead": "Clara, que coordina, te pregunta solo lo que falta y reparte el trabajo entre Vega y Nico. En la misión ves quién lleva cada tarea y qué está esperando tu decisión.",
 				"chips": {
 					"chat": "Conversaciones",
 					"missions": "Misiones"
@@ -399,7 +399,7 @@
 				"eyebrow": "Memoria",
 				"title": "Tu equipo sabe lo que tú sabes.",
 				"soft": "Y lo corriges en una frase.",
-				"lead": "Tu oferta, tus clientes, tu tono y cada decisión quedan en una memoria que el equipo consulta antes de trabajar. La lees, la corriges cuando cambias de idea y cada versión se guarda.",
+				"lead": "Tu oferta, a quién vendes, tu precio y tu tono quedan escritos en una memoria que el equipo lee antes de cada encargo. Si cambias de idea, lo corriges con una frase y la versión anterior se guarda.",
 				"facts": {
 					"sources": "Parte de tus archivos y de lo que decides",
 					"fix": "Una corrección llega a todo el equipo",
@@ -449,7 +449,7 @@
 				"eyebrow": "Tú decides",
 				"title": "Cierra la app.",
 				"soft": "Tu equipo sigue avanzando.",
-				"lead": "Tu equipo avanza con todo lo que no depende de ti. Lo que sí, te espera en Para ti, y en cuanto respondes sigue justo donde lo dejó.",
+				"lead": "Lo que necesita tu respuesta te espera en Para ti, como un permiso para publicar o una propuesta para elegir, y cuando contestas el trabajo sigue donde se había quedado.",
 				"facts": {
 					"permission": "Publicar, enviar o gastar siempre te pide permiso",
 					"weekly": "Lo de cada semana se programa una vez",
@@ -492,7 +492,7 @@
 		"emailPlaceholder": "tu@empresa.com",
 		"intent": "¿Qué te gustaría sacar adelante?",
 		"intentPlaceholder": "Por ejemplo: dar forma a una oferta, lanzar mi producto o dar a conocer mi negocio.",
-		"intentHint": "Una frase basta. Entre 10 y 1.000 caracteres.",
+		"intentHint": "Con una frase basta (entre 10 y 1.000 caracteres).",
 		"consent": "Acepto que Backroom me contacte sobre el acceso anticipado.",
 		"submit": "Pedir acceso",
 		"successTitle": "Hemos registrado tu interés",

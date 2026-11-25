@@ -1,8 +1,8 @@
 {
 	"landing": {
 		"meta": {
-			"title": "Backroom — Grow your business. Without doing it all yourself.",
-			"description": "An AI team that works with your business context: it prepares offers, research and drafts for X, Instagram and YouTube. In early access."
+			"title": "Grow your business without doing it all yourself | Backroom",
+			"description": "An AI team that reads what you know about your business and prepares offers, research and drafts for X, Instagram and YouTube. Nothing goes out without your OK. In early access."
 		},
 		"cta": "Request access",
 		"nav": {
@@ -23,18 +23,18 @@
 		},
 		"faq": {
 			"title": "Let’s be clear.",
-			"description": "What to know before joining.",
+			"description": "Seven answers before you request access.",
 			"one": {
 				"q": "Who is Backroom for?",
-				"a": "For founders, independent professionals with their own offer and small teams who want to build, launch or grow a business. It’s especially relevant if you have something real in the works and research, creation and distribution still depend on you."
+				"a": "For founders, independent professionals with their own offer and small teams who want to build, launch or grow a business. It fits best if you already have something in the works and the research, the writing and the posts still come from you."
 			},
 			"two": {
 				"q": "What if I only have an idea?",
-				"a": "You can start there, too. Your first piece of work might be understanding the problem, testing an offer or preparing a small experiment. You don’t need to pretend you already have customers; hypotheses should remain hypotheses."
+				"a": "You can start there, too. The first request might be understanding the problem, testing an offer or preparing a small experiment. You don’t need to pretend you already have customers, and what is still a guess is treated as a guess."
 			},
 			"three": {
 				"q": "How is this different from an AI chat?",
-				"a": "A chat answers what you ask. Backroom starts from what it already knows about your business, works with a method — what to research, what to prepare, how to take in your corrections — and leaves results you can open and ask to change. What you correct once, the whole team uses."
+				"a": "A chat answers what you ask in the moment. Backroom starts from what it already knows about your business, decides what to research and what to prepare, and leaves you documents you can open and ask to change. What you correct once, the whole team uses from then on."
 			},
 			"four": {
 				"q": "Does it publish on X, Instagram and YouTube for me?",
@@ -42,15 +42,15 @@
 			},
 			"five": {
 				"q": "Can I try it now?",
-				"a": "We’re preparing early access. Leave your email and tell us what you want to move forward. We’ll contact you when we can offer you access; submitting the form does not yet create an account or guarantee a date. In our private build you can already talk with your team, open results and ask for changes, correct the shared memory and use your own AI account. Missions, For you and weekly work are being built. Connecting your channels, publishing and measuring come after that."
+				"a": "We’re preparing early access. Leave your email and tell us what you want to move forward, and we’ll write when we can offer you access. Sending the form doesn’t create an account or guarantee a date. In our private build you can already talk with your team, open results and ask for changes, correct the shared memory and use your own AI account. Missions, For you and weekly work are being built, and connecting your channels, publishing and measuring come after that."
 			},
 			"six": {
 				"q": "How much does it cost?",
-				"a": "We haven’t published prices yet. Requesting access needs no card and starts no subscription. To use it you’ll work with your own AI account; if that plan is paid, its cost is separate and yours to manage. You’ll know the terms before deciding whether to use the product."
+				"a": "We haven’t published prices yet. Requesting access needs no card and starts no subscription. To use it you’ll work with your own AI account, and if that plan is paid, its cost is separate and yours to manage. You’ll know the terms before deciding whether to use the product."
 			},
 			"seven": {
 				"q": "What happens to my business information?",
-				"a": "What you decide is kept in your business’s memory: you can read and correct it, and each business has its own. Conversations are processed through your own AI account, under that provider’s terms. Publishing or reading private data on your behalf will always ask for your authorisation. Before you start we’ll explain what is stored and how to delete it; meanwhile, the <privacy>privacy policy</privacy> covers what we do with what you send in the access form."
+				"a": "What you decide is kept in your business’s memory: you can read and correct it, and each business has its own. Conversations are processed through your own AI account, under that provider’s terms. Publishing or reading private data on your behalf will always ask for your permission. Before you start we’ll explain what is stored and how to delete it."
 			}
 		},
 		"footer": {
@@ -58,7 +58,7 @@
 			"label": "Footer links",
 			"product": "Explore the product",
 			"contact": "Request access",
-			"signature": "Ideas finding their next step."
+			"signature": "This landing is open source, MIT licensed."
 		},
 		"artifacts": {
 			"label": "FICTIONAL EXAMPLE · NORTE STUDIO",
@@ -84,7 +84,7 @@
 				"textTwo": "A visual direction and its first applications: identity, menus and packaging. A coherent project with a scope agreed before work begins.",
 				"labelThree": "A NEXT STEP",
 				"textThree": "Tell us about the café you have in mind, what you’ve prepared and what you need to open. We’ll shape the proposal from there.",
-				"takeaway": "The page illustrates an offer; its form is not connected to a real studio."
+				"takeaway": "The page illustrates an offer. Its form is not connected to a real studio."
 			},
 			"content": {
 				"title": "One identity. Three conversations.",
@@ -99,7 +99,7 @@
 			},
 			"research": {
 				"title": "The questions before the launch",
-				"body": "A starting point for researching Norte’s offer. References provide direction; hypotheses need testing.",
+				"body": "A starting point for researching Norte’s offer. References give direction, but the hypotheses still need testing.",
 				"labelOne": "WHAT WE ALREADY HAVE",
 				"textOne": "A design portfolio, a proposed audience and an initial scope: identity, menus and packaging for independent cafés.",
 				"labelTwo": "WHAT WE STILL NEED TO LEARN",
@@ -113,10 +113,10 @@
 			"hero": {
 				"titleA": "Grow <growth>your business.</growth>",
 				"titleB": "Without doing it <team>all <you>yourself.</you></team>",
-				"lead": "Your AI team knows your business, prepares campaigns and projects, and you just decide.",
+				"lead": "Your AI team researches, shapes your offer and writes your posts from what it knows about your business, and nothing goes out until you approve it.",
 				"secondary": "See how it works",
 				"trust": {
-					"memory": "Ongoing memory",
+					"memory": "Remembers what you decide",
 					"control": "Nothing goes out without your OK",
 					"account": "With your own AI account"
 				}
@@ -138,7 +138,7 @@
 				"today": "Tuesday, 22 September",
 				"greeting": "Good morning, Elena",
 				"greetingNight": "Good evening, Elena",
-				"greetingBody": "Your team is moving forward. Here’s what needs your attention.",
+				"greetingBody": "Two things are waiting for your decision today.",
 				"decision": "Your next decision",
 				"mission": "Shape Norte’s new offer",
 				"missionBody": "The proposal and the page are prepared. The next steps are choosing the promise and reviewing what to publish.",
@@ -185,7 +185,7 @@
 				"railNote": "Clara coordinates Nico and Vega to keep the work moving forward with you."
 			},
 			"final": {
-				"body": "You can start whether your business is already running or still just an idea."
+				"body": "If it is still an idea, the first request can be checking whether anyone would pay for it."
 			}
 		},
 		"v3": {
@@ -222,7 +222,7 @@
 				"title": "How far would you go",
 				"soft": "with a team behind you?",
 				"noCard": "No card",
-				"noCommitment": "No commitment",
+				"noCommitment": "No account created",
 				"light": "Just your email and one sentence"
 			},
 			"close": "Close",
@@ -239,7 +239,7 @@
 				"eyebrow": "Get it out there",
 				"title": "Get known.",
 				"soft": "Without living on social media.",
-				"lead": "Give your team a goal and it takes care of the rest: it prepares each post with what it knows about your business, publishes it when you approve, measures what works and keeps an eye on your competitors.",
+				"lead": "You give it a goal, like 20 quote requests in October, and your team prepares each post from what it knows about your business. Publishing for you, measuring and following your competitors come later.",
 				"chips": {
 					"missions": "Missions",
 					"publish": "Publishing, results and competitors"
@@ -334,7 +334,7 @@
 				"eyebrow": "How you work with your team",
 				"title": "You ask in one sentence.",
 				"soft": "Your team turns it into a mission.",
-				"lead": "Clara understands what you want, asks only what is missing and splits the work. You see who does what, what waits for your decision and every result as soon as it is ready.",
+				"lead": "Clara, who coordinates, asks only what is missing and splits the work between Vega and Nico. In the mission you see who has each task and what is waiting for your decision.",
 				"chips": {
 					"chat": "Conversations",
 					"missions": "Missions"
@@ -399,7 +399,7 @@
 				"eyebrow": "Memory",
 				"title": "Your team knows what you know.",
 				"soft": "And you correct it in one sentence.",
-				"lead": "Your offer, your clients, your tone and every decision stay in a memory the team checks before working. You read it, correct it when you change your mind, and every version is kept.",
+				"lead": "Your offer, who you sell to, your price and your tone are written down in a memory the team reads before every request. If you change your mind, you correct it in one sentence and the previous version is kept.",
 				"facts": {
 					"sources": "Built from your files and your decisions",
 					"fix": "One correction reaches the whole team",
@@ -449,7 +449,7 @@
 				"eyebrow": "You decide",
 				"title": "Close the app.",
 				"soft": "Your team keeps going.",
-				"lead": "Your team moves ahead with everything that doesn't depend on you. What does waits for you in For you, and as soon as you answer it picks up right where it stopped.",
+				"lead": "Whatever needs your answer waits for you in For you, like a permission to publish or a proposal to choose, and once you reply the work picks up where it stopped.",
 				"facts": {
 					"permission": "Publishing, sending or spending always asks you first",
 					"weekly": "Weekly work is scheduled once",
@@ -492,7 +492,7 @@
 		"emailPlaceholder": "you@company.com",
 		"intent": "What would you like to work on?",
 		"intentPlaceholder": "For example: shape an offer, launch my product or get my business noticed.",
-		"intentHint": "One sentence is enough. Between 10 and 1,000 characters.",
+		"intentHint": "One sentence is enough (10 to 1,000 characters).",
 		"consent": "I agree to be contacted by Backroom about early access.",
 		"submit": "Request access",
 		"successTitle": "Your interest has been recorded",

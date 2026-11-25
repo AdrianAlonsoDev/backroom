@@ -13,7 +13,6 @@ import { HeroClouds, HeroSky } from "@home/components/v3/HeroSky";
 import { HeroFloaters, RequestMarquee } from "@home/components/v3/HeroStage";
 import { MotionScope } from "@home/components/v3/MotionScope";
 import { SectionHeading } from "@home/components/v3/SectionHeading";
-import { LocaleLink } from "@i18n/routing";
 import { ArrowDown, ArrowRight, Check, Plus } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
@@ -222,15 +221,7 @@ export async function Landing() {
 										<Plus size={18} />
 									</span>
 								</summary>
-								<p>
-									{key === "seven"
-										? t.rich("faq.seven.a", {
-												privacy: (chunks) => (
-													<LocaleLink href="/legal/privacy-policy">{chunks}</LocaleLink>
-												),
-											})
-										: t(`faq.${key}.a`)}
-								</p>
+								<p>{t(`faq.${key}.a`)}</p>
 							</details>
 						))}
 					</div>
