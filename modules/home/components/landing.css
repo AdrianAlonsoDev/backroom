@@ -105,7 +105,7 @@ body {
 
 .cl-button.primary:hover {
 	background: var(--cl-cta-hover);
-	box-shadow: 0 7px 26px #258aff20;
+	box-shadow: 0 7px 26px #fb9f0020;
 }
 
 .cl-button.small {
@@ -320,8 +320,8 @@ body {
 	width: 34px;
 	height: 34px;
 	border-radius: 8px;
-	background: #1d3555;
-	color: #f2f6ff;
+	background: #624410;
+	color: #faf9f7;
 	font-size: 20px;
 	font-weight: 650;
 	letter-spacing: -1.5px;
@@ -331,16 +331,16 @@ body {
 
 .signup-card {
 	color-scheme: light;
-	--foreground: #142238;
+	--foreground: #2e281e;
 	--destructive: #b32638;
 	--success: #186345;
-	background: linear-gradient(140deg, #ffffffed, #f2f6fd);
-	color: #142238;
+	background: linear-gradient(140deg, #ffffffed, #f9f8f6);
+	color: #2e281e;
 	border-radius: 21px;
 	padding: 31px;
 	box-shadow:
-		0 3px 5px #3c5b8212,
-		0 24px 45px #274d841f;
+		0 3px 5px #72634c12,
+		0 24px 45px #704e121f;
 	border: 1px solid #fff;
 }
 
@@ -359,7 +359,7 @@ body {
 }
 
 .ea-form-description {
-	color: #71829a;
+	color: #91887a;
 	font-size: 10px;
 	line-height: 1.6;
 	margin-top: 8px;
@@ -374,15 +374,15 @@ body {
 .ea-field label {
 	font-size: 11px;
 	font-weight: 500;
-	color: #324967;
+	color: #5b4f3e;
 }
 
 .ea-field input,
 .ea-field textarea {
-	border: 1px solid #b6c7dd;
+	border: 1px solid #d4ccbf;
 	background: #ffffffdb;
-	color: #152947;
-	box-shadow: 0 1px 2px #243f6408;
+	color: #4f370d;
+	box-shadow: 0 1px 2px #75511308;
 	border-radius: 9px;
 	font-size: 12px;
 	width: 100%;
@@ -403,11 +403,11 @@ body {
 
 .ea-field input::placeholder,
 .ea-field textarea::placeholder {
-	color: #879ab3;
+	color: #a99f91;
 }
 
 .ea-form .ea-hint {
-	color: #7b8ca3;
+	color: #9a9184;
 	font-size: 9px;
 	line-height: 1.6;
 }
@@ -420,13 +420,13 @@ body {
 
 .ea-consent label {
 	font-size: 10px;
-	color: #526985;
+	color: #7a6e5d;
 	line-height: 1.7;
 	font-weight: 400;
 }
 
 .ea-checkbox {
-	accent-color: #246bd7;
+	accent-color: #b57d1d;
 	width: 14px;
 	height: 14px;
 	flex-shrink: 0;
@@ -435,27 +435,27 @@ body {
 
 .ea-consent a {
 	text-decoration: underline;
-	color: #2c63aa;
+	color: #956718;
 }
 
 .ea-consent > .ea-hint {
 	font-size: 9px;
 	margin-left: 23px;
-	color: #7b8ca3;
+	color: #9a9184;
 }
 
 .ea-submit {
-	background: linear-gradient(120deg, #234b7f, #19365e);
+	background: linear-gradient(120deg, #684811, #664711);
 	color: white;
 	border-radius: 30px;
 	font-size: 12px;
 	min-height: 44px;
-	border: 1px solid #132949;
+	border: 1px solid #4f370d;
 	width: 100%;
 	box-shadow:
-		0 3px 8px #21487725,
-		inset 0 1px 0 #afd0ff16;
-	border-color: #19365e;
+		0 3px 8px #835b1525,
+		inset 0 1px 0 #ffe2af16;
+	border-color: #664711;
 	transition:
 		background 0.2s,
 		box-shadow 0.2s,
@@ -463,8 +463,8 @@ body {
 }
 
 .ea-submit:hover {
-	background: linear-gradient(120deg, #2b5c9a, #20477b);
-	box-shadow: 0 5px 12px #21487735;
+	background: linear-gradient(120deg, #865d16, #624410);
+	box-shadow: 0 5px 12px #835b1535;
 	transform: translateY(-1px);
 }
 
@@ -489,8 +489,8 @@ body {
 
 .landing-dialog {
 	color-scheme: light;
-	background: #eff3f9 !important;
-	color: #182b47 !important;
+	background: #f6f4f2 !important;
+	color: #52390d !important;
 	border: 1px solid #fff9 !important;
 	border-radius: 21px !important;
 	padding: 35px !important;
@@ -501,7 +501,7 @@ body {
 .landing-dialog .dialog-kicker {
 	font-size: 9px;
 	letter-spacing: 1.5px;
-	color: #6483ab;
+	color: #9b8b74;
 }
 
 .landing-dialog h2 {
@@ -514,28 +514,28 @@ body {
 .landing-dialog [data-slot="dialog-description"],
 .landing-dialog > p {
 	font-size: 14px;
-	color: #5a6f8e;
+	color: #827766;
 	line-height: 1.8;
 }
 
 .landing-dialog > small {
 	font-size: 10px;
 	line-height: 1.7;
-	color: #7b8da7;
-	border-top: 1px solid #172e4d15;
+	color: #9d9385;
+	border-top: 1px solid #563c0e15;
 	padding-top: 17px;
 }
 
 .landing-dialog blockquote {
-	border-left: 2px solid #74a3e8;
+	border-left: 2px solid #e8be74;
 	padding: 10px 0 10px 17px;
 	font-size: 18px;
-	color: #2f527f;
+	color: #734f13;
 	line-height: 1.5;
 }
 
 .landing-dialog > button {
-	color: #2e4d79;
+	color: #665741;
 }
 
 .site-footer {
@@ -635,8 +635,8 @@ body {
 
 .ea-field input:focus,
 .ea-field textarea:focus {
-	border-color: #6c96ce;
-	box-shadow: 0 0 0 3px #2c6dc411;
+	border-color: #de9f33;
+	box-shadow: 0 0 0 3px #ab771c11;
 	outline: none;
 }
 
@@ -919,12 +919,12 @@ body {
 .landing-dialog > small {
 	font-size: 12.5px !important;
 	line-height: 1.55;
-	color: #4a5a73;
+	color: #6a6153;
 }
 .landing-dialog .dialog-kicker {
 	font-size: 11.5px;
 	letter-spacing: 0.08em;
-	color: #5a6f8e;
+	color: #827766;
 }
 .example-document-image > span {
 	font-size: 10px;
@@ -940,5 +940,5 @@ body {
 	opacity: 1;
 }
 .landing-dialog > button:last-child:hover {
-	background: #172e4d0f;
+	background: #563c0e0f;
 }

@@ -112,7 +112,7 @@
 
 /* Brand mark: the tile lifts a little in dark mode so it does not melt into the page. */
 .dark .brand-mark-tile {
-	fill: #262931;
+	fill: #2f2c28;
 }
 .dark .brand-mark-edge {
 	stroke-opacity: 0.12;

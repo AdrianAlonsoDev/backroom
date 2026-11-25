@@ -57,13 +57,13 @@
 }
 /* The last word is "you": it takes the brand blue, never blended into the coral. */
 .v2-hero-you {
-	background: linear-gradient(90deg, #2f6fe4, #1f5ad0);
+	background: linear-gradient(90deg, #cf8d1b, #ac771a);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
 }
 .dark .v2-hero-you {
-	background-image: linear-gradient(90deg, #5b9bff, #3d86ff);
+	background-image: linear-gradient(90deg, #ffc35b, #ffa914);
 }
 .v2-hero-phrase {
 	white-space: nowrap;
@@ -141,7 +141,7 @@
 	height: 0.28em;
 }
 .v2-hero-channel-x {
-	background: linear-gradient(145deg, #34373c, #101113);
+	background: linear-gradient(145deg, #3a3836, #121211);
 }
 .v2-hero-channel-x svg {
 	width: 0.23em;
@@ -171,7 +171,7 @@
 	place-items: center;
 	width: 0.64em;
 	height: 0.64em;
-	filter: drop-shadow(0 0.025em 0.025em #101d3930);
+	filter: drop-shadow(0 0.025em 0.025em #2d261c30);
 }
 .v2-hero-teammate svg {
 	width: 100%;
@@ -211,7 +211,7 @@
 	position: absolute;
 	inset: 24% 12% 0;
 	z-index: 0;
-	background: radial-gradient(ellipse, #1c68d021, transparent 67%);
+	background: radial-gradient(ellipse, #ac751721, transparent 67%);
 	pointer-events: none;
 }
 .v2-team-stack {

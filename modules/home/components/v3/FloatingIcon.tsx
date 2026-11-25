@@ -31,11 +31,11 @@ const tones: Record<Exclude<FloatingKind, "folder">, [string, string]> = {
 	notes: ["#fffdf8", "#f1ebdc"],
 	sheet: ["#4bd88b", "#108047"],
 	doc: ["#ff9a85", "#e3402c"],
-	calendar: ["#ffffff", "#e9edf3"],
-	// The hero's three guarantees share one night-blue set, apart from the coloured work objects.
-	memory: ["#46679f", "#172a52"],
-	permission: ["#46679f", "#172a52"],
-	account: ["#46679f", "#172a52"],
+	calendar: ["#ffffff", "#f1efeb"],
+	// The hero's three guarantees share one warm black set, apart from the coloured work objects.
+	memory: ["#3d3428", "#14110c"],
+	permission: ["#3d3428", "#14110c"],
+	account: ["#3d3428", "#14110c"],
 };
 
 /** Original, detailed objects for the kinds of work around the product. Decorative only. */
@@ -57,7 +57,7 @@ export function FloatingIcon({ kind, id }: { kind: FloatingKind; id: string }) {
 				<linearGradient id={`${id}-rim`} x1="0" y1="0" x2="0" y2="1">
 					<stop offset="0" stopColor="#fff" stopOpacity="0.75" />
 					<stop offset="0.45" stopColor="#fff" stopOpacity="0" />
-					<stop offset="1" stopColor="#0b1530" stopOpacity={light ? 0.14 : 0.22} />
+					<stop offset="1" stopColor="#241f17" stopOpacity={light ? 0.14 : 0.22} />
 				</linearGradient>
 				<clipPath id={`${id}-clip`}>
 					<path d={body} />
@@ -67,7 +67,7 @@ export function FloatingIcon({ kind, id }: { kind: FloatingKind; id: string }) {
 						dx="0"
 						dy="2.5"
 						stdDeviation="2.4"
-						floodColor="#0b1a3a"
+						floodColor="#2a241b"
 						floodOpacity="0.2"
 					/>
 				</filter>
@@ -173,14 +173,14 @@ function Glyph({ kind, id }: { kind: Exclude<FloatingKind, "folder">; id: string
 			return (
 				<g filter={drop}>
 					<path d="M60 40c-8-6-20-7-32-5v49c12-2 24-1 32 5Z" fill="#fff" />
-					<path d="M60 40c8-6 20-7 32-5v49c-12-2-24-1-32 5Z" fill="#eef3fd" />
+					<path d="M60 40c8-6 20-7 32-5v49c-12-2-24-1-32 5Z" fill="#f8f6f3" />
 					<path
 						d="M36 52h15M36 61h15M36 70h11M69 52h15M69 61h15"
-						stroke="#bfd2f5"
+						stroke="#f5e1bf"
 						strokeWidth="3.4"
 						strokeLinecap="round"
 					/>
-					<path d="M77 34h9v19l-4.5-4-4.5 4Z" fill="#6fa8ff" />
+					<path d="M77 34h9v19l-4.5-4-4.5 4Z" fill="#ffca6f" />
 				</g>
 			);
 		case "permission":
@@ -190,7 +190,7 @@ function Glyph({ kind, id }: { kind: Exclude<FloatingKind, "folder">; id: string
 					<path
 						d="m47 60 9 9 18-19"
 						fill="none"
-						stroke="#2c4f93"
+						stroke="#815a15"
 						strokeWidth="6.5"
 						strokeLinecap="round"
 						strokeLinejoin="round"
@@ -201,7 +201,7 @@ function Glyph({ kind, id }: { kind: Exclude<FloatingKind, "folder">; id: string
 			return (
 				<g filter={drop} transform="rotate(-38 60 60)">
 					<circle cx="38" cy="60" r="17" fill="#fff" />
-					<circle cx="38" cy="60" r="6.5" fill="#2a4478" />
+					<circle cx="38" cy="60" r="6.5" fill="#684811" />
 					<rect x="50" y="54.5" width="44" height="11" rx="5.5" fill="#fff" />
 					<rect x="78" y="62" width="8" height="13" rx="2.5" fill="#fff" />
 					<rect x="66" y="62" width="7" height="9" rx="2.5" fill="#fff" />
@@ -226,7 +226,7 @@ function Glyph({ kind, id }: { kind: Exclude<FloatingKind, "folder">; id: string
 						fontSize="46"
 						fontWeight="600"
 						letterSpacing="-2"
-						fill="#1d2330"
+						fill="#2c2821"
 					>
 						22
 					</text>

@@ -1,6 +1,6 @@
 // Renders the hero's cumulus banks into public/images/landing/hero-clouds-*.webp.
 //
-//   pnpm --filter marketing exec node scripts/hero-sky/render.mjs
+//   pnpm render:sky
 //
 // Original volumetric renderer: cumulus built from smoothly united, stretched spheres, eroded by
 // billow noise, lit with a short shadow march and a multiple-scattering approximation. The view is
@@ -50,34 +50,34 @@ const layouts = {
 	},
 };
 
-/** Day is lit from the upper left and in front; night keeps only a faint backlight, up and to the right. */
+/** Day is a golden hour lit from the upper left and in front; night keeps only a faint warm backlight. */
 const lights = {
 	day: {
 		light: [-0.72, 0.62, -0.32],
-		sun: [3, 2.84, 2.55],
-		ambTop: [0.52, 0.62, 0.84],
-		ambBot: [0.24, 0.31, 0.48],
+		sun: [3, 2.72, 2.2],
+		ambTop: [0.8, 0.64, 0.46],
+		ambBot: [0.44, 0.31, 0.2],
 		glowAmt: 0.35,
 		erode: 0.55,
 		soft: 0.14,
-		fog: [0.8, 0.87, 0.97],
+		fog: [0.99, 0.9, 0.76],
 		fogAmt: 0.45,
 		exposure: 1.4,
 		od: 0.24,
 		ms: 0.3,
 		steps: 140,
 	},
-	// Dark silhouettes with a faint cool rim, so the product's glow stays the brightest light at
-	// night. Its warm tint stays faint too, so the clouds never turn brown.
+	// Dark, near-neutral silhouettes with a thin warm rim, so the product's glow stays the brightest
+	// light at night. The bodies stay almost grey: a stronger warm tint turns them brown.
 	night: {
 		light: [0.5, 0.6, 0.62],
-		sun: [0.12, 0.15, 0.24],
-		ambTop: [0.01, 0.015, 0.035],
-		ambBot: [0.003, 0.005, 0.012],
+		sun: [0.22, 0.17, 0.1],
+		ambTop: [0.016, 0.015, 0.014],
+		ambBot: [0.005, 0.0045, 0.004],
 		glowAmt: 0.04,
 		erode: 0.62,
 		soft: 0.26,
-		fog: [0.012, 0.02, 0.05],
+		fog: [0.03, 0.025, 0.018],
 		fogAmt: 0.32,
 		exposure: 0.7,
 		od: 0.32,
@@ -166,7 +166,7 @@ float lightMarch(vec3 p, float j) {
 }
 float HG(float c, float g) { float g2 = g * g; return (1. - g2) / pow(1. + g2 - 2. * g * c, 1.5); }
 vec3 glowColor(float x) {
-  float t = x / uRes.x; vec3 a = vec3(1., .62, .12), c = vec3(1., .4, .3), b = vec3(.24, .52, 1.);
+  float t = x / uRes.x; vec3 a = vec3(1., .62, .12), c = vec3(1., .46, .2), b = vec3(1., .8, .45);
   return t < .5 ? mix(a, c, smoothstep(.3, .5, t)) : mix(c, b, smoothstep(.5, .7, t));
 }
 vec3 aces(vec3 x) { return clamp((x * (2.51 * x + .03)) / (x * (2.43 * x + .59) + .14), 0., 1.); }

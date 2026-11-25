@@ -52,7 +52,7 @@ export function BrandMarkArt({
 					<stop offset="1" stopColor="#ff9a2a" />
 				</linearGradient>
 			</defs>
-			<path className="brand-mark-tile" d={TILE} fill={onDark ? "#262931" : "#15171c"} />
+			<path className="brand-mark-tile" d={TILE} fill={onDark ? "#2f2c28" : "#1a1917"} />
 			<rect
 				className="brand-mark-edge"
 				x="0.5"

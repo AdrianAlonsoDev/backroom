@@ -1,80 +1,82 @@
 /* Marketing theme follows next-themes' root class. Art, photos and paper documents
    keep their own materials; interface surfaces and text share these roles. */
 :root {
-	/* Warm white, charcoal and one deep blue. */
-	--cl-bg: #f6f5f1;
+	/* Ivory, warm black and one gold: the light behind the door in the logo. */
+	--cl-gold: #f5b54a;
+	--cl-bg: #f7f4ee;
 	--cl-surface: #ffffff;
-	--cl-surface-raised: #efede8;
-	--cl-surface-hover: #e7e4de;
-	--cl-ink: #15171c;
-	--cl-body: #454a54;
-	--cl-muted: #585e69;
-	--cl-subtle: #646a75;
-	--cl-soft-ink: #7a7f89;
-	--cl-line: #1c1f2617;
-	--cl-line-strong: #1c1f262e;
-	--cl-blue: #2563d6;
-	--cl-blue-soft: #2354b8;
-	--cl-accent: #3865a9;
-	--cl-paper: #efede8;
-	--cl-nav: #f6f5f1e6;
-	--cl-cta-bg: #15171c;
+	--cl-surface-raised: #efebe3;
+	--cl-surface-hover: #e6e0d5;
+	--cl-ink: #17150f;
+	--cl-body: #4a463e;
+	--cl-muted: #5d584f;
+	--cl-subtle: #69645a;
+	--cl-soft-ink: #7e786d;
+	--cl-line: #2a201017;
+	--cl-line-strong: #2a20102e;
+	/* The accent keeps its old name: by day it is a deep bronze so it still reads as text. */
+	--cl-blue: #9a6510;
+	--cl-blue-soft: #7f520a;
+	--cl-accent: #8a6a3a;
+	--cl-paper: #efebe3;
+	--cl-nav: #f7f4eee6;
+	--cl-cta-bg: #17150f;
 	--cl-cta-ink: #ffffff;
-	--cl-cta-hover: #2c313b;
-	--cl-selection-bg: #e6eefb;
-	--cl-selection-ink: #244e91;
-	--cl-selection-line: #356ecc40;
-	--cl-panel: linear-gradient(135deg, #ffffff, #f7f5f1);
-	--cl-panel-raised: linear-gradient(120deg, #ffffff, #f1efea);
-	--cl-phone-screen: radial-gradient(ellipse at 17% 0%, #ffffff, #f7f7f9 48%, #f1f2f5);
-	--cl-phone-reply: linear-gradient(125deg, #eceef2, #e5e8ee);
-	--cl-phone-file: linear-gradient(125deg, #ffffff, #f4f5f8);
-	--cl-thread: #5c739640;
-	--cl-shadow-faint: #1b1d2408;
-	--cl-shadow-soft: #1b1d2412;
-	--cl-shadow: #1b1d2421;
-	--cl-shadow-deep: #1b1d2438;
-	--cl-cutout: #f6f5f1;
-	--cl-focus: #2769ca;
-	--cl-glow: #7198d012;
+	--cl-cta-hover: #2f2b23;
+	--cl-selection-bg: #f6e8cc;
+	--cl-selection-ink: #6b4708;
+	--cl-selection-line: #c9952a40;
+	--cl-panel: linear-gradient(135deg, #ffffff, #f8f5ef);
+	--cl-panel-raised: linear-gradient(120deg, #ffffff, #f2eee6);
+	--cl-phone-screen: radial-gradient(ellipse at 17% 0%, #ffffff, #f9f7f3 48%, #f3f0ea);
+	--cl-phone-reply: linear-gradient(125deg, #efebe4, #e8e3da);
+	--cl-phone-file: linear-gradient(125deg, #ffffff, #f6f3ed);
+	--cl-thread: #8a7a5c40;
+	--cl-shadow-faint: #1f180c08;
+	--cl-shadow-soft: #1f180c12;
+	--cl-shadow: #1f180c21;
+	--cl-shadow-deep: #1f180c38;
+	--cl-cutout: #f7f4ee;
+	--cl-focus: #b07a10;
+	--cl-glow: #d9a54a14;
 }
 /* Dark stages inside the light page reuse the complete dark role set. */
 .dark,
 .v3-stage {
-	--cl-bg: #0f1012;
-	--cl-soft-ink: #8a8f98;
-	--cl-surface: #1c1e21;
-	--cl-surface-raised: #252c36;
-	--cl-surface-hover: #313f52;
-	--cl-ink: #f6f5f2;
-	--cl-body: #b7bbc2;
-	--cl-muted: #a1a5ac;
-	--cl-subtle: #919cac;
-	--cl-line: #ffffff16;
-	--cl-line-strong: #b1c7e530;
-	--cl-blue: #258aff;
-	--cl-blue-soft: #b6d5ff;
-	--cl-accent: #99b8e1;
-	--cl-nav: #101113ed;
-	--cl-cta-bg: #f6f5f2;
-	--cl-cta-ink: #101113;
-	--cl-cta-hover: #cce1ff;
-	--cl-selection-bg: #243349;
-	--cl-selection-ink: #d8e9ff;
-	--cl-selection-line: #90bffe55;
-	--cl-panel: linear-gradient(135deg, #1b2028, #151a22);
-	--cl-panel-raised: linear-gradient(120deg, #252c36, #1c222c);
-	--cl-phone-screen: radial-gradient(ellipse at 17% 0%, #22262c, #14171c 48%, #111418);
-	--cl-phone-reply: linear-gradient(125deg, #2b3038, #242930);
-	--cl-phone-file: linear-gradient(125deg, #28313e, #232a34);
-	--cl-thread: #667b9747;
+	--cl-bg: #0c0b09;
+	--cl-soft-ink: #8f897e;
+	--cl-surface: #1a1815;
+	--cl-surface-raised: #25221c;
+	--cl-surface-hover: #322d24;
+	--cl-ink: #f6f2ea;
+	--cl-body: #bfb9ad;
+	--cl-muted: #a7a194;
+	--cl-subtle: #9d9687;
+	--cl-line: #ffffff14;
+	--cl-line-strong: #ead6ae30;
+	--cl-blue: #f5b54a;
+	--cl-blue-soft: #ffdb94;
+	--cl-accent: #dcbb80;
+	--cl-nav: #0d0c0aed;
+	--cl-cta-bg: #f5b54a;
+	--cl-cta-ink: #17150f;
+	--cl-cta-hover: #ffcb6e;
+	--cl-selection-bg: #3a2d17;
+	--cl-selection-ink: #ffe6b3;
+	--cl-selection-line: #f5b54a55;
+	--cl-panel: linear-gradient(135deg, #1e1b17, #161411);
+	--cl-panel-raised: linear-gradient(120deg, #27231d, #1d1a16);
+	--cl-phone-screen: radial-gradient(ellipse at 17% 0%, #25221d, #161411 48%, #12100e);
+	--cl-phone-reply: linear-gradient(125deg, #2d2923, #25221d);
+	--cl-phone-file: linear-gradient(125deg, #2f2a21, #26221b);
+	--cl-thread: #9a876447;
 	--cl-shadow-faint: #0001;
 	--cl-shadow-soft: #0002;
 	--cl-shadow: #0005;
 	--cl-shadow-deep: #0009;
-	--cl-cutout: #111315;
-	--cl-focus: #69adff;
-	--cl-glow: #26385118;
+	--cl-cutout: #12100e;
+	--cl-focus: #ffc65c;
+	--cl-glow: #4a381818;
 }
 
 /* Map generic role names (background, card, border...) to the landing palette.
@@ -99,7 +101,7 @@
 	--input: var(--cl-line-strong);
 	--ring: var(--cl-focus);
 	--touch: var(--cl-blue);
-	--touch-foreground: #fff;
+	--touch-foreground: var(--cl-cta-ink);
 }
 
 /* Identity palette: mascots and work objects only. It never communicates a state. */
@@ -119,16 +121,16 @@
 	--id-teal-tint: #d3f4eb;
 	--id-teal-edge: #94dfce;
 	--id-teal-deep: #0c7163;
-	--id-sky: #3d86ff;
-	--id-sky-shade: #1f6fe5;
-	--id-sky-tint: #dbe7fe;
-	--id-sky-edge: #b6cefa;
-	--id-sky-deep: #1d4fb0;
-	--id-ink: #2f343d;
-	--id-ink-shade: #15171c;
+	--id-sky: #3a3226;
+	--id-sky-shade: #17140f;
+	--id-sky-tint: #efe9df;
+	--id-sky-edge: #d9cdb8;
+	--id-sky-deep: #3a2a12;
+	--id-ink: #3a3732;
+	--id-ink-shade: #1a1917;
 	--id-ink-tint: #e9e8e4;
 	--id-ink-edge: #d3d1cb;
-	--id-ink-deep: #15171c;
+	--id-ink-deep: #1a1917;
 }
 .dark,
 .v3-stage {
@@ -141,13 +143,13 @@
 	--id-teal-tint: #16322e;
 	--id-teal-edge: #23504a;
 	--id-teal-deep: #8fe9d8;
-	--id-sky-tint: #1a2a42;
-	--id-sky-edge: #2a4468;
-	--id-sky-deep: #9cc4ff;
-	--id-ink: #3a404b;
-	--id-ink-tint: #23262c;
-	--id-ink-edge: #343841;
-	--id-ink-deep: #e4e6ea;
+	--id-sky-tint: #2a241b;
+	--id-sky-edge: #4a3d2a;
+	--id-sky-deep: #f5d9a0;
+	--id-ink: #47433e;
+	--id-ink-tint: #2a2825;
+	--id-ink-edge: #3e3b37;
+	--id-ink-deep: #e9e7e5;
 }
 [data-tone="amber"] {
 	--tone: var(--id-amber);

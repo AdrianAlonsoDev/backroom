@@ -85,10 +85,10 @@
 	flex: none;
 	width: 36px;
 	height: 36px;
-	filter: drop-shadow(0 6px 10px #172a5240);
+	filter: drop-shadow(0 6px 10px #5a3f0f40);
 }
 .dark .v3-hero-trust .v3-floating-icon {
-	filter: drop-shadow(0 6px 12px #000000a6) drop-shadow(0 0 1px #9fbaf066);
+	filter: drop-shadow(0 6px 12px #000000a6) drop-shadow(0 0 1px #f0d29f66);
 }
 .v3-hero-trust > li:nth-child(2) {
 	justify-self: center;
@@ -261,28 +261,28 @@
 	z-index: -1;
 	pointer-events: none;
 	background:
-		radial-gradient(46% 31% at 50% 28%, #3d7cf0 0%, #2563d6aa 34%, transparent 72%),
-		radial-gradient(70% 43% at 50% 44%, #1b4bb4 0%, transparent 70%),
+		radial-gradient(46% 31% at 50% 28%, #f2a93c 0%, #d9861caa 34%, transparent 72%),
+		radial-gradient(70% 43% at 50% 44%, #a85f10 0%, transparent 70%),
 		linear-gradient(
 			180deg,
-			#a9d0ff00 0%,
-			#a9d0ff 4%,
-			#6fa6fb 8%,
-			#3b78e8 12%,
-			#2458cc 17%,
-			#1a43a3 24%,
-			#143277 33%,
-			#0f2352 43%,
-			#0d1630 56%,
-			#0f1013 67%
+			#f8d79a00 0%,
+			#f8d79a 4%,
+			#f3bc6a 8%,
+			#e39a3a 12%,
+			#c97a1f 17%,
+			#9a5813 24%,
+			#683a0d 33%,
+			#3d230a 43%,
+			#1c130a 56%,
+			#0c0b09 67%
 		);
 }
-/* At night the horizon stays a faint navy, so the glow on the frame's edge is the light. */
+/* At night the horizon stays a faint amber, so the glow on the frame's edge is the light. */
 .dark .v3-hero-stage::before {
 	background:
-		radial-gradient(46% 31% at 50% 28%, #1d4ab044 0%, #16357a22 34%, transparent 72%),
-		radial-gradient(70% 43% at 50% 44%, #0b1a40 0%, transparent 70%),
-		linear-gradient(180deg, transparent 0%, #07112a 21%, #0a1122 43%, #15171b 69%);
+		radial-gradient(46% 31% at 50% 28%, #b8741a40 0%, #6b3f0a22 34%, transparent 72%),
+		radial-gradient(70% 43% at 50% 44%, #2a1a08 0%, transparent 70%),
+		linear-gradient(180deg, transparent 0%, #160f07 21%, #110d08 43%, #12100d 69%);
 }
 .landing-v3 .v2-product-frame {
 	max-width: 1080px;
@@ -327,11 +327,11 @@
 	left: 4%;
 }
 .v3-aura > i:nth-child(2) {
-	--c: #ff5a45;
+	--c: #ff7a3d;
 	left: 29%;
 }
 .v3-aura > i:nth-child(3) {
-	--c: #2f7bff;
+	--c: #ffd27a;
 	right: 4%;
 }
 .dark .v3-aura > i {
@@ -349,8 +349,8 @@
 		90deg,
 		transparent,
 		#ffb02e 18%,
-		#ff6b57 50%,
-		#3d86ff 82%,
+		#ff7a3d 50%,
+		#ffd98a 82%,
 		transparent
 	);
 }
@@ -522,8 +522,8 @@
 }
 .landing-v3 .v2-app {
 	box-shadow:
-		0 50px 110px -40px #06123acc,
-		0 18px 40px -20px #0a1a4580,
+		0 50px 110px -40px #272119cc,
+		0 18px 40px -20px #30291f80,
 		0 0 0 1px #ffffff26,
 		0 3px 8px var(--cl-shadow-soft);
 }
@@ -557,7 +557,7 @@
 	--tilt: 0deg;
 	--blur: 0px;
 	--lift: -9px;
-	--shade: #0d2a6638;
+	--shade: #66450d38;
 	position: absolute;
 	z-index: 2;
 	top: var(--top);
@@ -674,10 +674,10 @@
 	font-weight: 550;
 	letter-spacing: -0.01em;
 	text-align: center;
-	color: #dfe6f5;
+	color: #efebe5;
 }
 .v3-requests .v3-tag {
-	color: #c9d3e6;
+	color: #dfd9d0;
 	background: #ffffff0f;
 	box-shadow: inset 0 0 0 1px #ffffff26;
 }
@@ -706,7 +706,7 @@
 	font-weight: 500;
 	letter-spacing: -0.01em;
 	white-space: nowrap;
-	color: #eef1f6;
+	color: #f4f2f0;
 	background: linear-gradient(180deg, #ffffff14, #ffffff08);
 	box-shadow:
 		inset 0 0 0 1px #ffffff1f,

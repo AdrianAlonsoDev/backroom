@@ -19,8 +19,8 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
 				width: "100%",
 				height: "100%",
 				padding: "64px 76px",
-				color: "#f6f5f2",
-				background: "radial-gradient(70% 90% at 50% 120%, #2563d6 0%, #13306f 45%, #0f1013 80%)",
+				color: "#f6f2ea",
+				background: "radial-gradient(70% 90% at 50% 120%, #d98a1f 0%, #5a340a 45%, #0c0b09 80%)",
 			}}
 		>
 			<div
@@ -51,7 +51,7 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
 				}}
 			>
 				<div style={{ display: "flex" }}>{t.markup("titleA", { growth: plain })}</div>
-				<div style={{ display: "flex", color: "#7fb0ff" }}>
+				<div style={{ display: "flex", color: "#f5c87a" }}>
 					{t.markup("titleB", { team: plain, you: plain })}
 				</div>
 			</div>
@@ -61,7 +61,7 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
 						<Mascot kind={kind} />
 					</span>
 				))}
-				<span style={{ display: "flex", marginLeft: 18, fontSize: 24, color: "#b8c7e4" }}>
+				<span style={{ display: "flex", marginLeft: 18, fontSize: 24, color: "#d8cbb2" }}>
 					X · Instagram · YouTube
 				</span>
 			</div>

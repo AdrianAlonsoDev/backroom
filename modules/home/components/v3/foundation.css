@@ -146,7 +146,7 @@
 		inset 0 0 0 1px var(--tone-edge),
 		inset 0 1px 0 #ffffffb0,
 		0 12px 24px -14px color-mix(in srgb, var(--tone-shade) 70%, transparent),
-		0 2px 5px -2px #1b1d241a;
+		0 2px 5px -2px #22201d1a;
 }
 .v3-tile[data-size="sm"] {
 	--s: 32px;
@@ -203,7 +203,7 @@
 	fill-opacity: 0.78;
 }
 .v3-glyph .g-ink {
-	fill: #182c35;
+	fill: #2e281f;
 }
 .v3-glyph[data-tone="ink"] .g-line,
 .v3-glyph[data-tone="ink"] .g-dot {
@@ -259,16 +259,16 @@
 	--mat-edge: #a9ddd0;
 }
 .v3-mat[data-tone="sky"] {
-	--mat: #2f67dd;
-	--mat-hi: #4f86f2;
-	--mat-lo: #1d48b4;
-	--mat-edge: #1d4fb0;
+	--mat: #2a241b;
+	--mat-hi: #3f3628;
+	--mat-lo: #17140f;
+	--mat-edge: #5a4521;
 }
 .v3-mat[data-tone="ink"] {
-	--mat: #1a1c21;
-	--mat-hi: #2a2e37;
-	--mat-lo: #111216;
-	--mat-edge: #2a2d34;
+	--mat: #1f1e1c;
+	--mat-hi: #34312d;
+	--mat-lo: #151412;
+	--mat-edge: #32302c;
 }
 .dark .v3-mat[data-tone="amber"] {
 	--mat: #e9a93a;
@@ -293,10 +293,10 @@
 	--mat-edge: #26c9a840;
 }
 .dark .v3-mat[data-tone="sky"] {
-	--mat: #173a82;
-	--mat-hi: #2552b5;
-	--mat-lo: #102a61;
-	--mat-edge: #2a57b0;
+	--mat: #1f1a13;
+	--mat-hi: #3a2f1f;
+	--mat-lo: #120f0b;
+	--mat-edge: #f5b54a40;
 }
 .dark .v3-mat::after {
 	mix-blend-mode: screen;
@@ -308,7 +308,7 @@
 	position: relative;
 	isolation: isolate;
 	color: var(--cl-ink);
-	background: #0f1013;
+	background: #121110;
 }
 .v3-stage::before {
 	content: "";
@@ -317,12 +317,12 @@
 	z-index: -1;
 	pointer-events: none;
 	background:
-		radial-gradient(60% 55% at 50% 0%, #2563d630, transparent 70%),
+		radial-gradient(60% 55% at 50% 0%, #b57d1d30, transparent 70%),
 		radial-gradient(40% 40% at 88% 100%, #26c9a814, transparent 70%),
 		radial-gradient(40% 40% at 10% 90%, #ff6b5712, transparent 70%);
 }
 .dark .v3-stage {
-	background: #15171b;
+	background: #1a1816;
 	box-shadow:
 		inset 0 1px 0 #ffffff12,
 		inset 0 -1px 0 #ffffff12;
@@ -355,7 +355,7 @@
 }
 .v3-status[data-state="building"] > i {
 	background: var(--cl-blue);
-	box-shadow: 0 0 0 3px #2563d624;
+	box-shadow: 0 0 0 3px #b57d1d24;
 }
 .v3-status[data-state="later"] > i {
 	background: transparent;
@@ -368,8 +368,8 @@
 }
 .dark .v3-status[data-state="building"] > i,
 .v3-stage .v3-status[data-state="building"] > i {
-	background: #6aa8ff;
-	box-shadow: 0 0 0 3px #6aa8ff24;
+	background: #ffc86a;
+	box-shadow: 0 0 0 3px #ffc86a24;
 }
 
 /* Scroll reveal: fully visible by default, animated only where supported and welcome. */
@@ -446,12 +446,12 @@
 /* Ink objects stay legible on dark tiles. */
 .dark .v3-glyph[data-tone="ink"],
 .v3-stage .v3-glyph[data-tone="ink"] {
-	--tone: #dfe3ea;
-	--tone-shade: #9aa2af;
+	--tone: #e8e5e1;
+	--tone-shade: #aaa69f;
 }
 .dark .v3-glyph[data-tone="ink"] .g-dot,
 .v3-stage .v3-glyph[data-tone="ink"] .g-dot {
-	fill: #23262c;
+	fill: #2a2825;
 	stroke: none;
 }
 
@@ -473,7 +473,7 @@
 
 /* White labels on blue fills use the deep brand blue in both themes. */
 .landing-v3 {
-	--v3-fill-blue: #2563d6;
+	--v3-fill-blue: #b57d1d;
 }
 
 /* Page-level pause: every loop stops, including the phone scene. */
@@ -501,7 +501,7 @@
 	border-radius: 99px;
 	font-size: 12.5px;
 	font-weight: 600;
-	color: #dfe6f5;
+	color: #efebe5;
 	background: #ffffff0f;
 	box-shadow: inset 0 0 0 1px #ffffff26;
 	transition: background 0.2s;
@@ -510,7 +510,7 @@
 	background: #ffffff1f;
 }
 .v3-motion-pause:focus-visible {
-	outline: 2px solid #9cc4ff;
+	outline: 2px solid #ffdb9c;
 	outline-offset: 3px;
 }
 @media (prefers-reduced-motion: reduce) {
