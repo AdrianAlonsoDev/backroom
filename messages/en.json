@@ -15,7 +15,11 @@
 			"skip": "Skip to content",
 			"context": "Memory",
 			"launch": "Get it out there",
-			"theme": "Switch between light and dark"
+			"theme": "Page colour",
+			"palette": {
+				"gold": "Gold",
+				"blue": "Blue"
+			}
 		},
 		"faq": {
 			"title": "Let’s be clear.",

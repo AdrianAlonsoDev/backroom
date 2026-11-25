@@ -29,6 +29,7 @@
 		"@types/react-dom": "19.3.0",
 		"oxfmt": "^0.68.0",
 		"oxlint": "^1.83.0",
+		"postcss": "8.5.23",
 		"sharp": "^0.35.4",
 		"typescript": "7.0.2"
 	}

@@ -1,26 +1,29 @@
 "use client";
 
-import { Moon, Sun } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 
-/** One button between light and dark. The icons follow the root class, so the server render
- * never depends on client storage. */
+const palettes = ["gold", "blue"] as const;
+
+/** Two swatches, gold and night blue. The active one follows the root's data-palette in CSS, so
+ * the server render never depends on client storage. */
 export function ThemeSelect() {
 	const t = useTranslations("landing.nav");
-	const { resolvedTheme, setTheme } = useTheme();
+	const { setTheme } = useTheme();
 	return (
-		<button
-			type="button"
-			className="cl-theme-select"
-			aria-label={t("theme")}
-			title={t("theme")}
-			onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
-		>
-			<span className="cl-theme-icons" aria-hidden="true">
-				<Sun className="cl-theme-sun" size={16} />
-				<Moon className="cl-theme-moon" size={16} />
-			</span>
-		</button>
+		<fieldset className="cl-palette-select">
+			<legend className="sr-only">{t("theme")}</legend>
+			{palettes.map((palette) => (
+				<button
+					key={palette}
+					type="button"
+					className="cl-palette-swatch"
+					data-value={palette}
+					aria-label={t(`palette.${palette}`)}
+					title={t(`palette.${palette}`)}
+					onClick={() => setTheme(palette)}
+				/>
+			))}
+		</fieldset>
 	);
 }

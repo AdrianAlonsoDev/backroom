@@ -9,6 +9,7 @@
 @import "../modules/home/components/v3/closing.css";
 @import "../modules/home/components/sections/sections.css";
 @import "../modules/shared/ui/ui.css";
+@import "../modules/home/components/palette-blue.css";
 
 /* A small reset in its own layer, so every landing rule outside it wins. */
 @layer reset {

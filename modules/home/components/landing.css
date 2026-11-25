@@ -185,37 +185,48 @@ body {
 	color: var(--cl-ink);
 }
 
-.cl-theme-select {
-	position: relative;
+/* Palette: two swatches in one pill. The active swatch follows the root's data-palette. */
+.cl-palette-select {
 	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 34px;
-	height: 34px;
 	flex-shrink: 0;
+	align-items: center;
+	gap: 4px;
+	height: 34px;
+	margin: 0;
+	min-inline-size: 0;
+	padding: 0 5px;
 	border: 1px solid var(--cl-line);
-	border-radius: 50%;
+	border-radius: 99px;
 	background: var(--cl-surface);
-	color: var(--cl-muted);
 }
-.cl-theme-select:hover {
-	color: var(--cl-ink);
-	border-color: var(--cl-line-strong);
+.cl-palette-swatch {
+	width: 22px;
+	height: 22px;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow:
+		inset 0 0 0 1px #ffffff26,
+		0 0 0 2px transparent;
+	transition: box-shadow 0.2s ease;
 }
-.cl-theme-select:focus-within {
+.cl-palette-swatch[data-value="gold"] {
+	background: radial-gradient(circle at 35% 30%, #ffe3a3, #f5b54a 55%, #b8731a);
+}
+.cl-palette-swatch[data-value="blue"] {
+	background: radial-gradient(circle at 35% 30%, #9cc4ff, #3d86ff 55%, #163a8f);
+}
+html:not([data-palette="blue"]) .cl-palette-swatch[data-value="gold"],
+html[data-palette="blue"] .cl-palette-swatch[data-value="blue"] {
+	box-shadow:
+		inset 0 0 0 1px #ffffff26,
+		0 0 0 2px var(--cl-bg),
+		0 0 0 3.5px var(--cl-ink);
+}
+.cl-palette-swatch:focus-visible {
 	outline: 2px solid var(--cl-focus);
-	outline-offset: 3px;
-}
-.cl-theme-icons {
-	display: flex;
-	pointer-events: none;
-}
-.cl-theme-moon,
-.dark .cl-theme-sun {
-	display: none;
-}
-.dark .cl-theme-moon {
-	display: block;
+	outline-offset: 4px;
 }
 
 .cl-mobile-toggle {
@@ -902,9 +913,13 @@ body {
 	.cl-nav-actions {
 		gap: 8px;
 	}
-	.cl-theme-select {
-		width: 30px;
+	.cl-palette-select {
 		height: 30px;
+		padding: 0 4px;
+	}
+	.cl-palette-swatch {
+		width: 19px;
+		height: 19px;
 	}
 	.site-nav .cl-button.small {
 		padding-inline: 11px;

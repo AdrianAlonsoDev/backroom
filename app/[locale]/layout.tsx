@@ -31,15 +31,17 @@ export default async function LocaleLayout({
 		<html
 			lang={locale}
 			suppressHydrationWarning
-			className={`${sansFont.variable} ${headingFont.variable}`}
+			className={`dark ${sansFont.variable} ${headingFont.variable}`}
 		>
 			<body>
 				<NextIntlClientProvider>
 					<ThemeProvider
-						attribute="class"
+						attribute="data-palette"
+						themes={["gold", "blue"]}
+						defaultTheme="gold"
+						enableSystem={false}
+						storageKey="palette"
 						disableTransitionOnChange
-						enableSystem
-						defaultTheme="system"
 					>
 						<NavBar />
 						<main id="main-content">{children}</main>

@@ -1,3 +1,8 @@
+/* Both palettes are dark: native controls and scrollbars follow. */
+html {
+	color-scheme: dark;
+}
+
 /* Small shared pieces that the landing used to take from a UI kit. */
 .sr-only {
 	position: absolute;
