@@ -1,12 +1,14 @@
 # Backroom
 
-Backroom is an open-source landing page for an AI agent product: a team of agents that runs the work of a small business while the owner decides. It is a Next.js site with a night sky drawn in CSS and WebGL, in two palettes, gold and night blue, four product screens built in HTML instead of screenshots, and copy in Spanish and English.
+Backroom is an open-source landing page for an AI agent product: a team of agents that runs the work of a small business while the owner decides. It is a Next.js site with a night sky drawn in CSS and WebGL, in two palettes, night blue and gold, four product screens built in HTML instead of screenshots, and copy in Spanish and English.
 
 The product it shows is fictional, and so is every name, number and screen in it. Take the page, change the words and the product, and ship it.
 
-![Backroom hero in the gold palette: a headline over a warm night sky, with the product window resting on clouds](.github/hero-gold.webp)
+![Backroom hero in the night blue palette: a headline over a night sky, with the product window resting on clouds](.github/hero-blue.webp)
 
-![The same hero in the night blue palette](.github/hero-blue.webp)
+![The same hero in the gold palette](.github/hero-gold.webp)
+
+![The hero on a phone, in blue and in gold](.github/mobile.webp)
 
 ## What is in the page
 
@@ -17,11 +19,17 @@ The product it shows is fictional, and so is every name, number and screen in it
   - a memory you correct in one sentence;
   - a phone inbox that asks for permission before anything is published.
 - **Questions and a signup form** that sends JSON to any endpoint you choose.
-- **Two palettes, gold and night blue,** with a switch in the header, Spanish and English, a pause button for every animation, and no animation when the visitor asks for reduced motion.
+- **Two palettes, night blue and gold,** with a switch in the header, Spanish and English, a pause button for every animation, and no animation when the visitor asks for reduced motion.
 
-![The distribution section: one mission with an X post, an Instagram carousel waiting for approval and a YouTube video in progress](.github/distribution.webp)
+![The distribution section in blue: one mission with an X post, an Instagram carousel waiting for approval and a YouTube video in progress](.github/distribution-blue.webp)
 
-![The team section: a conversation with an agent next to the task board it created](.github/team.webp)
+![The team section in gold: a conversation with an agent next to the task board it created](.github/team-gold.webp)
+
+![The memory section in blue: what the team knows about the business, and a correction you apply in one sentence](.github/memory-blue.webp)
+
+![The phone section in gold: an inbox that asks for permission before anything is published](.github/phone-gold.webp)
+
+![The signup section in blue](.github/signup-blue.webp)
 
 ## Run it
 
